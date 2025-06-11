@@ -1,0 +1,2471 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-12-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-11-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-09-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-07-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-07-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-04-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-59-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-58-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-04-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-04-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-10-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-09-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-06-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-05-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-14-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-13-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-09-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-04-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-11-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-10-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-08-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Hero",
+      "cluster": 1,
+      "source": "Hero",
+      "target": "Hero (hero1)",
+      "key": "hero1",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-05-364f6167b1c435535f3b9ba98d5af0590e4b5d88",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-07-eed03ab406ede75e4a0255c550837a34dbb64d77",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards (cards3)",
+      "key": "cards3",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-03-dae1c08c7e1c6f320c8c072e0980a97b39fcb968",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Table (no header)",
+      "cluster": 4,
+      "source": "Table (no header)",
+      "target": "Table (no header, tableNoHeader4)",
+      "key": "tableNoHeader4",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-04-45d52edf15e05750c419432324dc98acd7e42048",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[3]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-05-95a83cec6db58989290a14118ecc47be7cb7e27d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-02-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-02-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-02-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-02-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 6,
+      "source": "Cards",
+      "target": "Cards (cards6)",
+      "key": "cards6",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 7,
+      "source": "Cards",
+      "target": "Cards (cards7)",
+      "key": "cards7",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Embed (video)",
+      "cluster": 8,
+      "source": "Embed",
+      "target": "Embed (embedVideo8)",
+      "key": "embedVideo8",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 10,
+      "source": "Hero",
+      "target": "Hero (hero10)",
+      "key": "hero10",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 12,
+      "source": "Columns",
+      "target": "Columns (columns12)",
+      "key": "columns12",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-11-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-58-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-09-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-05-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-13-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-10-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 13,
+      "source": "Columns",
+      "target": "Columns (columns13)",
+      "key": "columns13",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 15,
+      "source": "Columns",
+      "target": "Columns (columns15)",
+      "key": "columns15",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 16,
+      "source": "Columns",
+      "target": "Columns (columns16)",
+      "key": "columns16",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-03-d6400804ce817f0142d8ce5a74d641e921baa805",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 17,
+      "source": "Hero",
+      "target": "Hero (hero17)",
+      "key": "hero17",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 18,
+      "source": "Accordion",
+      "target": "Accordion (accordion18)",
+      "key": "accordion18",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-06-e3ee391b36d7b50838147fe7d210e6d155a66b50",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 19,
+      "source": "Columns",
+      "target": "Columns (columns19)",
+      "key": "columns19",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-08-778146753469d17283a77f694c01a6801a595db0",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 20,
+      "source": "Cards",
+      "target": "Cards (cards20)",
+      "key": "cards20",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 21,
+      "source": "Accordion",
+      "target": "Accordion (accordion21)",
+      "key": "accordion21",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-01-78675e695000f7985e7ffbe278a17c7dc9a2b82d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 22,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages22)",
+      "key": "cardsNoImages22",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-11-28177dc1ea58dad35d4f11cc53a27b386e11d122",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 23,
+      "source": "Cards",
+      "target": "Cards (cards23)",
+      "key": "cards23",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 24,
+      "source": "Video",
+      "target": "Video (video24)",
+      "key": "video24",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-04-d2b5c2cb424efddf8b12d269effa725e4b021110",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 25,
+      "source": "Hero",
+      "target": "Hero (hero25)",
+      "key": "hero25",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 26,
+      "source": "Hero",
+      "target": "Hero (hero26)",
+      "key": "hero26",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 27,
+      "source": "Carousel",
+      "target": "Carousel (carousel27)",
+      "key": "carousel27",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 28,
+      "source": "Columns",
+      "target": "Columns (columns28)",
+      "key": "columns28",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-08-94fc726a6e9584330d8621e8606bef50a86579b4",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 29,
+      "source": "Cards",
+      "target": "Cards (cards29)",
+      "key": "cards29",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 30,
+      "source": "Cards",
+      "target": "Cards (cards30)",
+      "key": "cards30",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 31,
+      "source": "Columns",
+      "target": "Columns (columns31)",
+      "key": "columns31",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-06-d5b511a90f62bac40577f99adde5e308100c9b28",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 32,
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-05-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 33,
+      "source": "Hero",
+      "target": "Hero (hero33)",
+      "key": "hero33",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-07-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 34,
+      "source": "Carousel",
+      "target": "Carousel (carousel34)",
+      "key": "carousel34",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-04-e92dcf99b5a9905616ff06c1195760aaad13619b",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 35,
+      "source": "Cards",
+      "target": "Cards (cards35)",
+      "key": "cards35",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-07-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 36,
+      "source": "Hero",
+      "target": "Hero (hero36)",
+      "key": "hero36",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-10-08000bcf377fb03b10195ae07850ae9968658f7f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 37,
+      "source": "Cards",
+      "target": "Cards (cards37)",
+      "key": "cards37",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 38,
+      "source": "Hero",
+      "target": "Hero (hero38)",
+      "key": "hero38",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-08-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 39,
+      "source": "Cards",
+      "target": "Cards (cards39)",
+      "key": "cards39",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-09-44dcd638aab5215c87571efe651c7a066abc516a",
+          "xpath": "/html[1]/body[1]/div[1]/div[6]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 40,
+      "source": "Cards",
+      "target": "Cards (cards40)",
+      "key": "cards40",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/",
+      "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+      "uuid": "022b7232-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/",
+      "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+      "uuid": "080300ac-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-02-a99d7d173ee51a2ab8f6d0c5da0d3ae472386c80",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-03-4f99fc34378a72bfe8a73460c1741d53bcc0ab9e",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-04-369b023818fcd7fd0e61768c127fb264507e7c08",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-05-e5c971916a6909419b5a081423608605a5614bfa",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-06-d3f995b8dc5937b92a73ea2abacebb0b8e6989fe",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[5]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+      "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+      "uuid": "18d8c89d-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/3/",
+      "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+      "uuid": "1ec52c4f-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-02-82e016a3b6f17f9f96681c08e44d940203f67f1f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-03-8b9ecc6f3c8435bc54700e91c8f31d6aed5872bf",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-05-ef353fddfc4d7fc0b47c3f09e2e8583d91cfd782",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[4]/div[1]/div[1]/details[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-06-7656f82f30ca8c7b848986992396145927afd5a9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-07-799342e8b9b954af38433cb15129373e6f6b8028",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-09-33a3314c531a0b61ca0d61a69175b8b80657a551",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/personalizacao/",
+      "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+      "uuid": "38d8b7af-12-6e70765a003047818ea5700b557b8d01b43078df",
+      "xpath": "/html[1]/body[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/regulamentos/",
+      "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+      "uuid": "3da50406-02-a35b1f23676a054b472ff8c93b4550341c98238e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/regulamentos/",
+      "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+      "uuid": "3da50406-03-1d3f3950963ee87f8570f6543146745b7f9d3d51",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/regulamentos/",
+      "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+      "uuid": "3da50406-09-6e70765a003047818ea5700b557b8d01b43078df",
+      "xpath": "/html[1]/body[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/manaus/",
+      "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+      "uuid": "4569852c-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/manaus/",
+      "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+      "uuid": "4569852c-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/manaus/",
+      "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+      "uuid": "4569852c-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/manaus/",
+      "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+      "uuid": "4569852c-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/am/manaus/",
+      "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+      "uuid": "4569852c-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/",
+      "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+      "uuid": "66aa4d09-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/",
+      "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+      "uuid": "66ab7968-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+      "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+      "uuid": "6e9eff75-02-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+      "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+      "uuid": "6e9eff75-03-8271e0a3036952db2a460fb7f202d54e22ff48e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+      "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+      "uuid": "6e9eff75-07-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/",
+      "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+      "uuid": "79fe2d47-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+      "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+      "uuid": "8ab18430-02-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
+      "xpath": "/html[1]/body[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+      "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+      "uuid": "8ab18430-03-8271e0a3036952db2a460fb7f202d54e22ff48e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+      "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+      "uuid": "8ab18430-07-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+      "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+      "uuid": "8c9adfad-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+      "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+      "uuid": "8c9adfad-04-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/page/2/",
+      "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+      "uuid": "8ee9dc3d-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-02-c0ecd231273803ff2d1ba850f6f2a6867aa95200",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-03-786d300d1cbef05036029f430b743ed420b6b81d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-04-5cd8d95e1d0097e9a846deeb1cc12f2706890eb7",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-05-5c5fd96ee5bfa3d9c11ac9d8b23a2f9ff43c1871",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-06-eec553e880871d68a774f8cef7b4b47448aacab9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[5]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-07-d7411fb7e12d76253c1a79368f6b3be9c0e59d3e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[6]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-08-ffea06828200ca12b4801c93119e6d944d9dead7",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-09-8cb7a6dbcea37d9a974865fa685c7ce683df0aaf",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-10-34f3b6a3b6acfaec504ec45ab2ebd2ed280a564d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-11-f37295d0a3da1dec95121679cf2e20996d97e391",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-12-dcd76660aa7caefcd23b6c173729960ca21a4712",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-13-7574706b0ef43eacb1460fbef70c6a0819bf8047",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-14-3f3a815f87bf848598870012d4d1d480900c5b7a",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[13]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-15-658d80c506f40a0438964d3456931c73c69965d9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[14]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-16-b5c9392ec9fb850b2dfa6b3d055f89518dc28803",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[15]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-17-6dec5f01c0ba05e7bfeb35ac6f3eb11e7676cf9c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[16]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-18-b8a3f910faf2bc373bcf87d478525298d48e394f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[17]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-19-270e1891fc6616aab7b184c23f38fdef70617fe0",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[18]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-20-cb734cd8a28d3495a1f91857f3bcd5fdb8a55fa9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[19]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-21-0fd9e12b5df66a7a38d48c90e3069e424969f1cd",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[20]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-22-c39673531c307df0b52ae90eab1d3dc73fc78dc6",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[21]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-23-f451c0411c9db51293ba80871b6c1d2d078ab068",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[22]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-24-d00b02a0036ce52f777e27f544a8e25dd525c18d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[23]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-25-a44be075d712c4dabb49441f394df7a69c2a8335",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[24]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-26-a7104a5bd1bec5943e0154300ae02c6fc33731f9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[25]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-27-25dc3b9496ba8d3f73c62c6b2c6415c3a514f062",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[26]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-28-10d7aac19747cd15bccda007be457bd42de84d77",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[27]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-29-0cd5055fd950974d9f571b1632f01f2bc740a16e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[28]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-30-16b065c72aa761aab8f0784c06007dc2011b52bf",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[29]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-31-6b86a6d1f588b06275e9238ced795642f0dc4290",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[30]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-32-4a2a9bc15e7e569234ca45cf1f923ce1ffe27101",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[31]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-33-cde5af424a51f7cb1ccf648c313f0eb2f138cb16",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[32]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-34-e42cad8b2a141f557027c01078ab5c01a77d8ccc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[33]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-35-96a5d7c3ca3db025b314c7e1b99aef5b7d4a3fa4",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[34]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-36-d6f784b5d32f78990962699967b9807cbe160972",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[35]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-37-97f3c8d43fa119aeeb921332d56f51c6fa7c1b8a",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[36]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-38-37056d0732fb9fa1d460dbdb222faaf3a477ed67",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[37]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-39-d378e7a3259b9980f4a45914b6468bc72eff75fe",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[38]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-40-dbd3ba9267cb4fc15234e7297030fa2986d4862e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[39]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-41-a3bf2de6d28d4f8c9d140c40b2f92e6c3374439b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[40]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-42-994bd96c676acca5a073bd47b423f18964faac4b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[41]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-43-ce0f25b8e7630f2f0935542e443311202d2c467d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[42]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-44-8ed0890a08fdca901bb6681b095c9ca0ba8701ba",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[43]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-45-42be9b8f55446cb167a63235f8d5a9f06d1039ad",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[44]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-46-3ac5c1ea14220280236d6f726603c519ef5638dd",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[45]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-47-28612527bd4d0e7243f09c0c0404ebc93a31598c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[46]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-48-09628c4f15f5df2693ba3e27430a13591994b0e7",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[47]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-49-0bd6bd4c4a523e98d61e4e295d257dc06e2ecc13",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[48]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-50-6dbb11ba9acf062b28c0dd742be6393c025cea8f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[49]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-51-cdcd8be8707791b9aaba81c169ba66d51b4d4bed",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[50]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-52-dfe0671be228bcca5eac8f1e4919d67c1791d4a4",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[51]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-53-61daf652b4189ac11f57b249b5b05dcdf348cfd9",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[52]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-54-81c942d42b1ec898ebadd2162b5cdd6e506d65b0",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[53]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-55-b117cafc6c047fcc901bb7541fc23c776f2c2a1e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[54]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-56-b0c08f939973f5328d65faf30065fded580bc666",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[55]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-57-21732a42b6842e7a69f32044f13136cece689860",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[56]"
+    },
+    {
+      "url": "https://meusensia.com.br/politica-de-privacidade/",
+      "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+      "uuid": "9baaedd5-59-6e70765a003047818ea5700b557b8d01b43078df",
+      "xpath": "/html[1]/body[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/rj/",
+      "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+      "uuid": "9e5e9b1a-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/rj/",
+      "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+      "uuid": "9e5e9b1a-04-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/al/",
+      "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+      "uuid": "a206565d-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/",
+      "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+      "uuid": "ab5e40f1-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+      "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+      "uuid": "ada658e7-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/al/maceio/",
+      "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+      "uuid": "bc23c7da-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/al/maceio/",
+      "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+      "uuid": "bc23c7da-04-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/",
+      "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+      "uuid": "bd816865-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/",
+      "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+      "uuid": "bd816865-04-45cc69e7df6e23b6c9f651b469fefcd5360da994",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/",
+      "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+      "uuid": "bd816865-10-6e70765a003047818ea5700b557b8d01b43078df",
+      "xpath": "/html[1]/body[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+      "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+      "uuid": "c4eb122b-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/",
+      "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+      "uuid": "cdbbe609-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/",
+      "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+      "uuid": "cdbbe609-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/",
+      "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+      "uuid": "cdbbe609-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/",
+      "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+      "uuid": "cdbbe609-06-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-06-8e83917bc08ae8a6dc6eff6b842aff5fb3bba393",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[5]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-09-58bb235ea92012ead426ccb159f29acbe1a5c11c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-10-ccb27733070298cafac3c7415bddb9445608b64e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-12-e5c595dd8a6a576631a71e59ffcf2b34783e5589",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/conheca-a-sensia/",
+      "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+      "uuid": "e563f5d9-14-6e70765a003047818ea5700b557b8d01b43078df",
+      "xpath": "/html[1]/body[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-07-4eabbda5311e71fa12ce80cd0e2687c8b4743c67",
+      "xpath": "/html[1]/body[1]/div[1]/div[6]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-09-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+      "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+      "uuid": "eddf327d-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+      "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+      "uuid": "eddf327d-04-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-07-e32eb8416efda53c93d8c1d557da257dddd29322",
+      "xpath": "/html[1]/body[1]/div[1]/div[6]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-08-fb54e24b101111100235bc7d84960a81141b41c9",
+      "xpath": "/html[1]/body[1]/div[1]/div[6]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+      "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+      "uuid": "f6fe7f82-11-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[1]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-03-911d8640f29f83687af8a5af6e0a440da8394b72",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-04-b76d2a8e36dca38b26f064c73c92b8f170fb08c2",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[3]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
+      "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+      "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+      "uuid": "f7aa8859-08-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    }
+  ]
+}
