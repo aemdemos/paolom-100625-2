@@ -1171,7 +1171,7 @@
           "url": "https://meusensia.com.br/imoveis/ce/",
           "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
           "uuid": "79fe2d47-01-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
+          "xpath": "/html[1]/body[1]/div[1]/div[1]"
         },
         {
           "url": "https://meusensia.com.br/imoveis/al/",
@@ -1392,7 +1392,7 @@
       ]
     },
     {
-      "name": "unknown",
+      "name": "Form",
       "cluster": 32,
       "instances": [
         {
