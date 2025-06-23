@@ -1,60 +1,41 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // The header row: exactly one column, block name
+  // 1. Check for the main loop item (for resilience to possible variations)
+  const loopContainer = element.querySelector('.elementor-loop-container');
+  if (!loopContainer) return;
+  // Find the actual loop item (the card block)
+  const loopItem = loopContainer.querySelector('.e-loop-item');
+  if (!loopItem) return;
+
+  // The two primary columns are the first two direct children of the loop item
+  // Find all direct children of loopItem that are containers
+  const containers = Array.from(loopItem.children).filter((child) =>
+    child.classList.contains('elementor-element') && child.classList.contains('e-con')
+  );
+
+  // Defensive: If less than two columns found, abort
+  if (containers.length < 2) return;
+
+  // LEFT COLUMN: City title and subtitle (address summary)
+  const leftCol = containers[0];
+  // RIGHT COLUMN: Details, icons, links, address
+  const rightCol = containers[1];
+
+  // Reference the leftCol and rightCol containers as cells in the table
+  // (No need to clone: referencing elements directly is correct here)
+
+  // TABLE HEADER: Must be exactly as required
   const headerRow = ['Columns (columns32)'];
 
-  // Find the loop container and main loop-item
-  const loopContainer = element.querySelector('.elementor-loop-container');
-  const loopItem = loopContainer ? loopContainer.querySelector('[data-elementor-type="loop-item"]') : null;
+  // TABLE ROWS: The left and right columns
+  const tableRows = [
+    headerRow,
+    [leftCol, rightCol]
+  ];
 
-  let leftCol = null;
-  let rightCol = null;
+  // Create the table
+  const table = WebImporter.DOMUtils.createTable(tableRows, document);
 
-  if (loopItem) {
-    // Find the two main .e-con containers (the columns)
-    // We need to guarantee leftCol = '7ff4075b' (heading/subtitle), rightCol = '42104fad' (details)
-    const mainCols = loopItem.querySelectorAll(':scope > .elementor-element.e-con');
-    if (mainCols.length >= 2) {
-      // Find by data-id for max resilience
-      mainCols.forEach(col => {
-        if (col.getAttribute('data-id') === '7ff4075b') {
-          leftCol = col;
-        } else if (col.getAttribute('data-id') === '42104fad') {
-          rightCol = col;
-        }
-      });
-    } else if (mainCols.length === 1) {
-      leftCol = mainCols[0];
-    }
-  }
-
-  // Fallback: try to get by class order if data-id not present
-  if ((!leftCol || !rightCol)) {
-    const allCons = element.querySelectorAll('.elementor-element.e-con');
-    if (allCons.length >= 2) {
-      // Try to find the leftCol as the one containing a h3 (which is the city heading)
-      let foundLeft = false;
-      allCons.forEach(col => {
-        if (!foundLeft && col.querySelector('h3')) {
-          leftCol = col;
-          foundLeft = true;
-        }
-      });
-      // rightCol is any other
-      allCons.forEach(col => {
-        if (col !== leftCol && !rightCol) rightCol = col;
-      });
-    } else if (allCons.length === 1) {
-      leftCol = allCons[0];
-    }
-  }
-  // Build the row in the correct order: [leftCol, rightCol]
-  const rowColumns = [];
-  if (leftCol) rowColumns.push(leftCol);
-  if (rightCol) rowColumns.push(rightCol);
-  if (rowColumns.length === 0) rowColumns.push(element);
-
-  const cells = [headerRow, rowColumns];
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Replace the original element with the table
   element.replaceWith(table);
 }

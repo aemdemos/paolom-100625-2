@@ -1,35 +1,46 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the Table of Contents widget
-  const tocWidget = element.querySelector('.elementor-widget-table-of-contents');
-  if (!tocWidget) return;
+  // The block header row
+  const headerRow = ['Accordion (accordion44)'];
+  const rows = [headerRow];
 
-  // Header (the accordion label/title)
-  const tocHeader = tocWidget.querySelector('.elementor-toc__header-title');
-  // Body: list of contents (ol)
-  const tocList = tocWidget.querySelector('.elementor-toc__body .elementor-toc__list-wrapper');
+  // Try to find all accordion pairs (header+body) inside the element
+  // In this HTML structure, there's only one header and one body, but code for multiple pairs
+  // Look for all .elementor-toc__header and .elementor-toc__body pairs at the top level
+  const widgetContainers = element.querySelectorAll('.elementor-widget-table-of-contents');
 
-  // Prepare the rows for the Accordion block
-  // Header row: should be a single column
-  const rows = [
-    ['Accordion (accordion44)']
-  ];
-
-  // Only add the row if there's a title for the accordion (the TOC heading)
-  // and some list content
-  if (tocHeader || tocList) {
-    // Compose the content cell
-    // Use tocHeader as the title cell, tocList as the content cell
-    // Ensure both are not null, if missing, use an empty div
-    const titleCell = tocHeader || document.createElement('div');
-    const contentCell = tocList || document.createElement('div');
-    rows.push([
-      titleCell,
-      contentCell
-    ]);
+  if (widgetContainers.length) {
+    widgetContainers.forEach((widget) => {
+      const tocHeader = widget.querySelector('.elementor-toc__header');
+      let title = '';
+      if (tocHeader) {
+        // Look for h1-h6 or specific header-title
+        const heading = tocHeader.querySelector('h1,h2,h3,h4,h5,h6,.elementor-toc__header-title');
+        title = heading ? heading.textContent.trim() : tocHeader.textContent.trim();
+      }
+      const tocBody = widget.querySelector('.elementor-toc__body');
+      if (title && tocBody) {
+        rows.push([title, tocBody]);
+      }
+    });
   }
 
-  // Create the table and replace the original element
+  // Fallback: if no widgets found directly, try to find a single accordion pair for minimal HTML
+  if (rows.length === 1) {
+    // Try to find the .elementor-toc__header and .elementor-toc__body directly under the provided element
+    const tocHeader = element.querySelector('.elementor-toc__header');
+    let title = '';
+    if (tocHeader) {
+      const heading = tocHeader.querySelector('h1,h2,h3,h4,h5,h6,.elementor-toc__header-title');
+      title = heading ? heading.textContent.trim() : tocHeader.textContent.trim();
+    }
+    const tocBody = element.querySelector('.elementor-toc__body');
+    if (title && tocBody) {
+      rows.push([title, tocBody]);
+    }
+  }
+
+  // Create the block table and replace the original element
   const block = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(block);
 }

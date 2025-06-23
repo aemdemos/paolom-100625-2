@@ -1,36 +1,53 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the inner container, which contains the column containers
+  // Find the inner wrapper that holds the columns
   const inner = element.querySelector('.e-con-inner');
   if (!inner) return;
-  // Get all immediate child containers that are columns
-  const columns = Array.from(inner.children).filter((child) => child.classList.contains('e-con-full'));
-  if (columns.length < 2) return;
 
-  // Column 1 content
-  let col1Content = [];
-  const headingWidget = columns[0].querySelector('.elementor-widget-heading');
-  if (headingWidget) {
-    col1Content.push(headingWidget);
-  } else {
-    col1Content.push(columns[0]);
-  }
+  // Get all direct child columns (should be .e-con)
+  const columnEls = Array.from(inner.querySelectorAll(':scope > .e-con'));
+  if (!columnEls.length) return;
 
-  // Column 2 content
-  let col2Content = [];
-  const textWidget = columns[1].querySelector('.elementor-widget-text-editor');
-  if (textWidget) {
-    col2Content.push(textWidget);
-  } else {
-    col2Content.push(columns[1]);
-  }
+  // For each column, gather its widgets' content as an array of arrays (rows)
+  // We'll support multi-row columns by finding the largest widget count across columns
+  const columnsContent = columnEls.map(col => {
+    // All direct child widgets in this column
+    const widgets = Array.from(col.querySelectorAll(':scope > .elementor-widget'));
+    // For each widget, get its .elementor-widget-container children or fallback to itself
+    return widgets.map(widget => {
+      const container = widget.querySelector(':scope > .elementor-widget-container');
+      // Return all children (filtering whitespace-only text nodes)
+      if (container) {
+        const nodes = Array.from(container.childNodes).filter(n => {
+          if (n.nodeType === Node.TEXT_NODE) return n.textContent.trim().length;
+          if (n.nodeType === Node.ELEMENT_NODE) return n.innerHTML.replace(/\s|&nbsp;/g,'') !== '';
+          return false;
+        });
+        // If empty, fallback to container itself
+        return nodes.length ? (nodes.length === 1 ? nodes[0] : nodes) : container;
+      }
+      return widget;
+    });
+  });
 
-  // The header row must be a single cell (not multiple columns)
+  // Determine the max number of rows present in any column
+  const numRows = Math.max(...columnsContent.map(col => col.length));
+
+  // Build the header row (always single column)
   const headerRow = ['Columns (columns59)'];
-  const contentRow = [col1Content[0], col2Content[0]];
+  // Now, build the body rows: each row is an array of cells, one from each column
+  const bodyRows = [];
+  for (let i = 0; i < numRows; i++) {
+    const row = columnsContent.map(colArr => {
+      // For this column, get the i-th widget, or empty string if missing
+      return colArr[i] !== undefined ? colArr[i] : '';
+    });
+    bodyRows.push(row);
+  }
 
-  // The second row and below should match the number of columns needed
-  const cells = [headerRow, contentRow];
+  // Compose the cells array
+  const cells = [headerRow, ...bodyRows];
+
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

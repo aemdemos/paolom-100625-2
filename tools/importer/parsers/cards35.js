@@ -1,36 +1,30 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header as in example
-  const headerRow = ['Cards (cards35)'];
-  const cards = [];
-  // Find the grid of cards
-  const grid = element.querySelector('.elementor-loop-container.elementor-grid');
+  // Locate the loop grid container
+  const grid = element.querySelector('.elementor-widget-loop-grid .elementor-loop-container');
   if (!grid) return;
-  // Each card is an immediate child with class e-loop-item
-  const cardEls = Array.from(grid.children).filter(el => el.classList.contains('e-loop-item'));
-  cardEls.forEach(card => {
-    // 1st cell: The card image (reference the <img> only)
+
+  // Each card is a loop-item
+  const cards = Array.from(grid.querySelectorAll(':scope > div[data-elementor-type="loop-item"]'));
+  if (cards.length === 0) return;
+
+  // Table header must match example exactly
+  const cells = [['Cards (cards35)']];
+
+  cards.forEach(card => {
+    // Image cell (always first column)
     let img = null;
-    const imgLink = card.querySelector('.card-imoveis-item a[href]');
-    if (imgLink && imgLink.querySelector('img')) {
-      img = imgLink.querySelector('img');
+    const imgCandidate = card.querySelector('.elementor-widget-theme-post-featured-image img');
+    if (imgCandidate) {
+      img = imgCandidate;
     }
-    // 2nd cell: The card detail block (reference the block, not its inner HTML)
-    // We want the box with .card-imoveis-dados, but only the colored inner box
-    const details = card.querySelector('.card-imoveis-dados');
-    let textBlock = null;
-    if (details) {
-      textBlock = details;
-    }
-    // Only add row if both image and text block are present
-    if (img && textBlock) {
-      cards.push([img, textBlock]);
-    }
+    // Content cell (everything in the colored data box)
+    let content = card.querySelector('.card-imoveis-dados.color-applied');
+    if (!content) content = card.querySelector('.card-imoveis-dados');
+    if (!content) content = document.createElement('div'); // fallback: empty div if truly missing
+    cells.push([img, content]);
   });
-  // If no cards found, do nothing
-  if (!cards.length) return;
-  // Build the table rows, header first
-  const cells = [headerRow, ...cards];
+
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

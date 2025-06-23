@@ -1,76 +1,33 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Compose header for the Hero block
+  // According to the example, the table has 1 column and 3 rows:
+  // Row 1: 'Hero' (header)
+  // Row 2: background image (optional, empty if absent)
+  // Row 3: Heading and block content (optional)
+
+  // 1. HEADER: Always 'Hero'
   const headerRow = ['Hero'];
 
-  // Try to extract a background image from style attributes, even if not as <img>
-  let imageEl = null;
+  // 2. BACKGROUND IMAGE: In this HTML, no background image is present as <img>; leave blank
+  const imageRow = [''];
 
-  // Try immediate children for style background-image
-  const candidates = [element, ...element.querySelectorAll('*')];
-  for (const el of candidates) {
-    // Check for style attribute with background-image
-    const style = el.getAttribute('style');
-    if (style) {
-      const urlMatch = style.match(/background-image\s*:\s*url\(["']?([^"')]+)["']?\)/i);
-      if (urlMatch) {
-        const url = urlMatch[1];
-        imageEl = document.createElement('img');
-        imageEl.src = url;
-        break;
-      }
-    }
-    // Also check for data attributes e.g. data-background-image
-    for (const attr of el.getAttributeNames()) {
-      if (/background.*image/i.test(attr)) {
-        const val = el.getAttribute(attr);
-        if (val && /^https?:\/\//.test(val)) {
-          imageEl = document.createElement('img');
-          imageEl.src = val;
-          break;
-        }
-      }
-    }
-    if (imageEl) break;
+  // 3. Heading or content: extract heading as element
+  let textContent = '';
+  let headingEl = null;
+  // Search for a heading element (h1-h6) inside any nested element
+  const heading = element.querySelector('h1, h2, h3, h4, h5, h6');
+  if (heading) {
+    headingEl = heading;
   }
+  const contentRow = [headingEl ? headingEl : ''];
 
-  // Also check for an <img> tag (normal case)
-  if (!imageEl) {
-    const img = element.querySelector('img');
-    if (img) imageEl = img;
-  }
-
-  // Find the content (heading, subheading, CTA, etc.)
-  let contentEl = null;
-  // Try to find any child with a heading (h1-h6)
-  const headingWidget = element.querySelector('.elementor-widget-heading');
-  if (headingWidget) {
-    contentEl = headingWidget;
-  } else {
-    // Fallback: any heading
-    const heading = element.querySelector('h1,h2,h3,h4,h5,h6');
-    if (heading) {
-      contentEl = heading;
-    }
-  }
-  // Fallback: if no heading found, try to include all non-image, non-empty children
-  if (!contentEl) {
-    const contentCandidates = Array.from(element.children).filter(child =>
-      child.querySelector('h1,h2,h3,h4,h5,h6,p,a')
-    );
-    if (contentCandidates.length) {
-      contentEl = document.createElement('div');
-      contentCandidates.forEach(c => contentEl.appendChild(c));
-    }
-  }
-
-  // Compose rows for table: header, image, content
-  const rows = [
+  // Compose cells array for the block table
+  const cells = [
     headerRow,
-    [imageEl ? imageEl : ''],
-    [contentEl ? contentEl : ''],
+    imageRow,
+    contentRow
   ];
-
-  const table = WebImporter.DOMUtils.createTable(rows, document);
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  // Replace the original element with the new block table
+  element.replaceWith(block);
 }

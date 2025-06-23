@@ -1,60 +1,92 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Table header as per block name
+  // Block header as required
   const headerRow = ['Cards (cardsNoImages55)'];
 
-  // FIND main heading (FICHA TÉCNICA)
-  let heading = element.querySelector('h2, h1, h3');
+  // Helper function to get all accordions (Elementor nested-accordion widgets)
+  function getAccordionDetailRows(root) {
+    const rows = [];
+    // Find all accordion widgets
+    const accordionWidgets = root.querySelectorAll('.elementor-widget-n-accordion');
+    accordionWidgets.forEach(acc => {
+      const detailsEls = acc.querySelectorAll('details.e-n-accordion-item');
+      detailsEls.forEach(details => {
+        // TITLE: from summary (".e-n-accordion-item-title-text" if present, else summary.textContent)
+        let title = '';
+        const summary = details.querySelector('summary');
+        if (summary) {
+          const t = summary.querySelector('.e-n-accordion-item-title-text');
+          if (t && t.textContent.trim()) {
+            title = t.textContent.trim();
+          } else {
+            title = summary.textContent.trim();
+          }
+        }
+        if (!title) title = 'Detalhes';
+        // CONTENT: region after summary
+        let contentCell = '';
+        const region = details.querySelector('[role=region]');
+        if (region) {
+          // Sometimes region contains a container div or several widgets
+          if (region.children.length === 1) {
+            contentCell = region.firstElementChild;
+          } else if (region.children.length > 1) {
+            contentCell = Array.from(region.children);
+          } else {
+            // Fallback to text content
+            contentCell = region.textContent.trim();
+          }
+        }
+        rows.push([title, contentCell]);
+      });
+    });
+    return rows;
+  }
 
-  // FIND the leisure items text editor (Itens de lazer)
-  let leisureTextDiv = null;
-  const textEditors = element.querySelectorAll('.elementor-widget-text-editor .elementor-widget-container');
-  for (const te of textEditors) {
-    if (/Itens de lazer/i.test(te.textContent)) {
-      leisureTextDiv = te;
-      break;
+  // Helper: extract the general introductory content (heading and descriptive text above accordion)
+  function getGeneralInfoBlock(root) {
+    // Find the heading (class .elementor-widget-heading -> h2)
+    let heading = null;
+    let headingWidget = root.querySelector('.elementor-widget-heading');
+    if (headingWidget) {
+      heading = headingWidget;
     }
-  }
-
-  // FIND the accordion with technical data (the <details> element inside .e-n-accordion)
-  let detailsEl = null;
-  let accordion = element.querySelector('.e-n-accordion');
-  if (accordion) {
-    // Only use the first accordion item for this block
-    detailsEl = accordion.querySelector(':scope > details');
-  }
-
-  // Compose the title cell
-  // Per example: This is the FICHA TÉCNICA heading
-  let titleCell = heading || '';
-
-  // Compose the content cell: Leisure items + all technical data in the accordion content
-  let contentCellParts = [];
-  if (leisureTextDiv) {
-    contentCellParts.push(leisureTextDiv);
-  }
-  if (detailsEl) {
-    // All content after summary in detailsEl
-    for (const child of detailsEl.children) {
-      if (child.tagName.toLowerCase() !== 'summary') {
-        contentCellParts.push(child);
+    // All text widgets not inside .elementor-widget-n-accordion
+    let infoTextEls = Array.from(root.querySelectorAll('.elementor-widget-text-editor'));
+    infoTextEls = infoTextEls.filter(el => !el.closest('.elementor-widget-n-accordion'));
+    // Remove any that are children of headingWidget
+    if (headingWidget) {
+      infoTextEls = infoTextEls.filter(el => !headingWidget.contains(el));
+    }
+    // Compose content: heading first, then text blocks
+    const arr = [];
+    if (heading) arr.push(heading);
+    if (infoTextEls.length > 0) arr.push(...infoTextEls);
+    // Only return if there is actual content
+    if (arr.length > 0) {
+      // Title can be the heading text if present, fallback to 'Ficha Técnica'
+      let titleText = 'Ficha Técnica';
+      if (heading) {
+        const h = heading.querySelector('h1,h2,h3,h4,h5,h6');
+        if (h && h.textContent.trim()) {
+          titleText = h.textContent.trim();
+        }
       }
+      return [[titleText, arr.length === 1 ? arr[0] : arr]];
     }
+    return [];
   }
 
-  // If there's no heading, we must not provide an empty element but keep cell non-empty
-  if (!titleCell) titleCell = document.createTextNode('');
-  if (contentCellParts.length === 0) contentCellParts = [''];
+  // Compose all table rows: block name header, then general info, then accordion rows
+  const rows = [headerRow];
 
-  // Build the table rows as per the block structure
-  const rows = [
-    headerRow,
-    [titleCell, contentCellParts]
-  ];
+  // Add the general introductory block as the first accordion item (if present)
+  const generalBlock = getGeneralInfoBlock(element);
+  generalBlock.forEach(row => rows.push(row));
+  // Add all accordion "details"
+  getAccordionDetailRows(element).forEach(row => rows.push(row));
 
-  // Create the block table
+  // Create and replace
   const table = WebImporter.DOMUtils.createTable(rows, document);
-
-  // Replace the original element
   element.replaceWith(table);
 }

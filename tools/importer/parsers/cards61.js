@@ -1,104 +1,94 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Prepare table header row exactly as required
-  const cells = [['Cards (cards61)']];
+  // Header row exactly as required
+  const headerRow = ['Cards (cards61)'];
 
-  // Find the grid with cards
-  const grid = element.querySelector('.elementor-loop-container.elementor-grid');
-  if (!grid) return;
-  const cards = grid.querySelectorAll('[data-elementor-type="loop-item"]');
+  // Find the main grid of cards
+  const cardsContainer = element.querySelector('.elementor-loop-container.elementor-grid');
+  if (!cardsContainer) return;
 
-  cards.forEach(card => {
-    // 1. IMAGE/ICON (left cell)
-    let imgEl = null;
+  // Each card is a [data-elementor-type="loop-item"]
+  const cardElements = Array.from(cardsContainer.querySelectorAll('[data-elementor-type="loop-item"]'));
+
+  // For each card, extract [img, text content]
+  const rows = cardElements.map(card => {
+    // --- First cell: Image ---
+    let img = null;
     const imgWidget = card.querySelector('.elementor-widget-theme-post-featured-image');
     if (imgWidget) {
-      imgEl = imgWidget.querySelector('img');
+      img = imgWidget.querySelector('img');
     }
-    // 2. TEXT CONTENT (right cell)
-    const textContent = [];
-    // a) Status (first .status-da-obra-card-imoveis)
-    const statusWidget = card.querySelector('.status-da-obra-card-imoveis .elementor-post-info__terms-list-item');
-    if (statusWidget && statusWidget.textContent.trim()) {
+
+    // --- Second cell: Text Content ---
+    // We'll use a single block-level <div> to hold all text parts in sequence
+    const contentDiv = document.createElement('div');
+
+    // Status (Lançamento, Obras iniciadas, etc)
+    const status = card.querySelector('.status-da-obra-card-imoveis .elementor-post-info__terms-list-item');
+    if (status && status.textContent.trim()) {
       const statusDiv = document.createElement('div');
-      statusDiv.textContent = statusWidget.textContent.trim();
+      statusDiv.textContent = status.textContent.trim();
       statusDiv.style.fontWeight = 'bold';
-      statusDiv.style.textTransform = 'uppercase';
-      textContent.push(statusDiv);
+      contentDiv.appendChild(statusDiv);
     }
-    // b) Title (next .elementor-widget-post-info with anchor, NOT the status)
-    // There may be multiple, so select all and choose one with a link
-    const postInfoWidgets = card.querySelectorAll('.elementor-widget-post-info');
-    let foundTitle = false;
-    for (let pi of postInfoWidgets) {
-      const a = pi.querySelector('a');
-      if (a && a.textContent.trim()) {
-        const titleDiv = document.createElement('div');
-        titleDiv.innerHTML = `<strong>${a.textContent.trim()}</strong>`;
-        textContent.push(titleDiv);
-        foundTitle = true;
-        break;
-      }
-    }
-    // c) Location (find .elementor-post-info__terms-list-item *after* title)
-    // The location is the next .elementor-post-info__terms-list-item which is not status and not in the cta/features list
-    // Collect all .elementor-post-info__terms-list-item elements
-    const allListItems = card.querySelectorAll('.elementor-post-info__terms-list-item');
-    // Find status and title values for filtering
-    const statusText = statusWidget ? statusWidget.textContent.trim() : '';
+
+    // Title with optional link (Sensia Jardim, etc.)
+    const titleLinkLi = card.querySelector('.elementor-repeater-item-1315aa1');
     let titleText = '';
-    for (let pi of postInfoWidgets) {
-      const a = pi.querySelector('a');
-      if (a && a.textContent.trim()) {
-        titleText = a.textContent.trim();
-        break;
-      }
-    }
-    // Location is the first item that's not status or any in the last features set
-    let featureStartIdx = -1;
-    // Find the features list, which is the last .elementor-widget-post-info
-    if (postInfoWidgets.length > 0) {
-      const lastInfo = postInfoWidgets[postInfoWidgets.length - 1];
-      const featuresList = lastInfo.querySelectorAll('.elementor-post-info__terms-list-item');
-      if (featuresList.length > 0) {
-        // Index in allListItems where features start
-        featureStartIdx = Array.prototype.indexOf.call(allListItems, featuresList[0]);
-      }
-    }
-    // Find first location candidate before the features section
-    let locationFound = false;
-    for (let i = 0; i < allListItems.length; i++) {
-      const text = allListItems[i].textContent.trim();
-      if (
-        i < featureStartIdx &&
-        text !== statusText &&
-        text !== titleText &&
-        text
-      ) {
-        const locDiv = document.createElement('div');
-        locDiv.textContent = text;
-        textContent.push(locDiv);
-        locationFound = true;
-        break;
-      }
-    }
-    // d) Feature items (in last .elementor-widget-post-info)
-    if (featureStartIdx >= 0) {
-      for (let j = featureStartIdx; j < allListItems.length; j++) {
-        const feat = allListItems[j];
-        if (feat.textContent.trim()) {
-          const featDiv = document.createElement('div');
-          featDiv.textContent = feat.textContent.trim();
-          textContent.push(featDiv);
+    let titleLink = null;
+    if (titleLinkLi) {
+      const titleA = titleLinkLi.querySelector('a');
+      if (titleA) {
+        // Remove icon if any
+        const icon = titleA.querySelector('.elementor-icon-list-icon');
+        if (icon) icon.remove();
+        // Use the existing anchor element; keep its href and text
+        titleLink = titleA;
+      } else {
+        // Fallback, just use text
+        const textSpan = titleLinkLi.querySelector('.elementor-post-info__item');
+        if (textSpan && textSpan.textContent.trim()) {
+          titleText = textSpan.textContent.trim();
         }
       }
     }
+    if (titleLink) {
+      // Put title in bold
+      const strong = document.createElement('strong');
+      strong.appendChild(titleLink);
+      contentDiv.appendChild(strong);
+    } else if (titleText) {
+      const strong = document.createElement('strong');
+      strong.textContent = titleText;
+      contentDiv.appendChild(strong);
+    }
 
-    // Compose the row: [image, [textContent...]]
-    cells.push([imgEl, textContent]);
+    // Location (Maringá | Paraná | PR)
+    const loc = card.querySelector('.elementor-repeater-item-c4a5a20 .elementor-post-info__terms-list-item');
+    if (loc && loc.textContent.trim()) {
+      const locDiv = document.createElement('div');
+      locDiv.textContent = loc.textContent.trim();
+      contentDiv.appendChild(locDiv);
+    }
+
+    // Bulleted feature list: under the green area, after divider
+    // Get the feature list (all li in .elementor-element-c9e3915)
+    const featureLis = card.querySelectorAll('.elementor-element-c9e3915 .elementor-post-info > li');
+    featureLis.forEach(li => {
+      const feature = li.querySelector('.elementor-post-info__terms-list-item');
+      if (feature && feature.textContent.trim()) {
+        // Each feature as a <div>
+        const featDiv = document.createElement('div');
+        featDiv.textContent = feature.textContent.trim();
+        contentDiv.appendChild(featDiv);
+      }
+    });
+
+    return [img, contentDiv];
   });
 
-  // Create and replace
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Assemble the final table: header + all card rows
+  const tableArr = [headerRow, ...rows];
+  const table = WebImporter.DOMUtils.createTable(tableArr, document);
   element.replaceWith(table);
 }

@@ -1,60 +1,54 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get the two main columns: left (.endereco-left-col) and right (the other main container)
+  // Header as described in the block information
+  const headerRow = ['Columns (columns48)'];
+
+  // Find the two main columns by looking for .e-con-inner, then its children
   let leftCol = null;
   let rightCol = null;
-
-  // In this Elementor structure, there is a wrapping .e-con-inner containing the two columns
   const inner = element.querySelector(':scope > .e-con-inner');
-  let children = [];
   if (inner) {
-    children = Array.from(inner.children);
-  } else {
-    // fallback: if .e-con-inner is missing, use direct children
-    children = Array.from(element.children);
+    const containers = inner.querySelectorAll(':scope > div');
+    if (containers.length >= 2) {
+      leftCol = containers[0];
+      rightCol = containers[1];
+    }
   }
 
-  // Try to find left and right columns
-  leftCol = children.find((div) => div.classList.contains('endereco-left-col'));
-  rightCol = children.find((div) => !div.classList.contains('endereco-left-col'));
+  // Defensive fallback: if not found, fallback to direct children
+  if (!leftCol || !rightCol) {
+    const fallbackChildren = element.querySelectorAll(':scope > div');
+    if (fallbackChildren.length >= 2) {
+      leftCol = fallbackChildren[0];
+      rightCol = fallbackChildren[1];
+    }
+  }
 
-  // Extract content from left column
-  let leftContent;
+  // LEFT COLUMN: reference all content of leftCol
+  let leftCellContent = [];
   if (leftCol) {
-    const leftInner = leftCol.querySelector(':scope > .e-con-inner') || leftCol;
-    leftContent = document.createElement('div');
-    Array.from(leftInner.children).forEach(child => {
-      leftContent.appendChild(child);
-    });
-  } else {
-    leftContent = document.createTextNode('');
+    // Pick all direct children of leftCol's .e-con-inner (if present), else direct children
+    const leftInner = leftCol.querySelector('.e-con-inner');
+    if (leftInner) {
+      leftCellContent = Array.from(leftInner.children);
+    } else {
+      leftCellContent = Array.from(leftCol.children);
+    }
   }
 
-  // Extract content from right column
-  let rightContent;
+  // RIGHT COLUMN: reference all content of rightCol
+  let rightCellContent = [];
   if (rightCol) {
-    const rightInner = rightCol.querySelector(':scope > .e-con-inner') || rightCol;
-    rightContent = document.createElement('div');
-    Array.from(rightInner.children).forEach(child => {
-      rightContent.appendChild(child);
-    });
-  } else {
-    rightContent = document.createTextNode('');
+    // Sometimes there is no wrapper, just widgets
+    rightCellContent = Array.from(rightCol.children);
   }
 
-  // Create table with a single header cell (colspan handled after table creation)
-  const cells = [
-    ['Columns (columns48)'],
-    [leftContent, rightContent]
+  // Put all contents as arrays (so that createTable appends them all to the cell)
+  const tableArr = [
+    headerRow,
+    [leftCellContent, rightCellContent],
   ];
 
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-
-  // Fix: Make the header cell span both columns (colspan=2)
-  const headerRow = table.querySelector('tr');
-  if (headerRow && headerRow.children.length === 1) {
-    headerRow.firstElementChild.setAttribute('colspan', '2');
-  }
-
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(tableArr, document);
+  element.replaceWith(block);
 }
