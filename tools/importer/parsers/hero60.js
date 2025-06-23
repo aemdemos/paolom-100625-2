@@ -1,55 +1,40 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // The .e-con-inner is a wrapper, inside which we have the content containers
-  const mainInner = element.querySelector('.e-con-inner') || element;
-  const mainRows = Array.from(mainInner.querySelectorAll(':scope > .elementor-element'));
+  // Get the main inner container if exists
+  const inner = element.querySelector('.e-con-inner') || element;
+  // Find all direct child elementor containers
+  const sections = inner.querySelectorAll(':scope > .elementor-element');
 
-  // Find the element that contains the heading (usually with class 'elementor-widget-heading')
-  let headingEl = null;
-  let headingH = null;
-  for (const row of mainRows) {
-    const h = row.querySelector('h1, h2, h3, h4, h5, h6');
-    if (h) {
-      headingEl = row;
-      headingH = h;
-      break;
-    }
-  }
+  // Variables for blocks
+  let heading = null;
+  let para = null;
+  let img = null;
 
-  // Find the element that contains the paragraph(s) (usually with class 'elementor-widget-text-editor')
-  let paraEl = null;
-  for (const row of mainRows) {
-    // find any <p> inside this row
-    if (row.querySelector('p')) {
-      paraEl = row;
-      break;
-    }
-  }
+  // Look for heading, text, and image
+  sections.forEach(sec => {
+    // Heading block
+    const h = sec.querySelector('.elementor-widget-heading h1, .elementor-widget-heading h2, .elementor-widget-heading h3, .elementor-widget-heading h4, .elementor-widget-heading h5, .elementor-widget-heading h6');
+    if (h && !heading) heading = h;
+    // Paragraph
+    const p = sec.querySelector('.elementor-widget-text-editor p');
+    if (p && !para) para = p;
+    // Image
+    const imgEl = sec.querySelector('.elementor-widget-image img');
+    if (imgEl && !img) img = imgEl;
+  });
 
-  // Find the image element (usually in a widget with class 'elementor-widget-image')
-  let imageEl = null;
-  for (const row of mainRows) {
-    const img = row.querySelector('img');
-    if (img) {
-      imageEl = img;
-      break;
-    }
-  }
+  // Build block content for the last row (heading, paragraph)
+  const blockContent = [];
+  if (heading) blockContent.push(heading);
+  if (para) blockContent.push(para);
 
-  // Construct the main text cell: heading and paragraph(s)
-  const textCell = [];
-  if (headingH) textCell.push(headingH);
-  if (paraEl) {
-    const paras = paraEl.querySelectorAll('p');
-    paras.forEach(p => textCell.push(p));
-  }
-
-  // Compose table: 1 column, header row, optional image row, text row
+  // Structure per Hero block convention: header, image, [text]
   const cells = [
     ['Hero'],
-    [imageEl ? imageEl : ''],
-    [textCell.length > 0 ? textCell : '']
+    [img ? img : ''],
+    [blockContent.length ? blockContent : '']
   ];
+
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

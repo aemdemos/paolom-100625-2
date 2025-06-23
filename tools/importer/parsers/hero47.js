@@ -1,44 +1,52 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Compose header row as per block definition
-  const headerRow = ['Hero'];
+  // Helper: get immediate child containers
+  const topDivs = Array.from(element.querySelectorAll(':scope > div'));
 
-  // Row 2: Background Image (not present in provided HTML, so leave blank)
-  const row2 = [''];
-
-  // Row 3: Content Cell (heading, all address blocks, CTA)
-  const row3Content = [];
-
-  // Find heading (h1-h6 under .elementor-widget-heading)
-  const heading = element.querySelector('.elementor-widget-heading h1, .elementor-widget-heading h2, .elementor-widget-heading h3, .elementor-widget-heading h4, .elementor-widget-heading h5, .elementor-widget-heading h6');
-  if (heading) row3Content.push(heading);
-
-  // Find all icon lists and text blocks that are not inside buttons
-  // The address/info part is typically made up of icon-lists and text-editor widgets
-  // We want them in the same order as source.
-  const widgets = Array.from(element.querySelectorAll('.elementor-widget'));
-  widgets.forEach(widget => {
-    // Skip heading and button (they are already handled)
-    if ((heading && widget.contains(heading)) || widget.querySelector('.elementor-button')) {
-      return;
+  // Find the main content container for the left side (should contain heading, address, ctas, etc)
+  let mainCol = null;
+  for (const div of topDivs) {
+    // look for a container with a heading somewhere inside
+    if (div.querySelector('h1,h2,h3,h4')) {
+      mainCol = div;
+      break;
     }
-    row3Content.push(widget);
-  });
-
-  // Find the CTA button (a inside .elementor-widget-button)
-  const buttonWidget = element.querySelector('.elementor-widget-button');
-  if (buttonWidget) {
-    const btn = buttonWidget.querySelector('a');
-    if (btn) row3Content.push(btn);
   }
+  if (!mainCol) mainCol = element;
 
-  // If there is no content, leave cell blank
-  const row3 = [row3Content.length > 0 ? row3Content : ''];
+  // Find heading (usually h2, sometimes h1, etc)
+  const heading = mainCol.querySelector('h1,h2,h3,h4');
 
-  // Compose the block table
-  const cells = [headerRow, row2, row3];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+  // Find all icon lists (address label, maps links, waze links)
+  const iconLists = Array.from(mainCol.querySelectorAll('ul.elementor-icon-list-items'));
+  // Find all paragraphs (address line)
+  const paragraphs = Array.from(mainCol.querySelectorAll('p'));
+  // Find CTA buttons
+  const ctas = Array.from(mainCol.querySelectorAll('a.elementor-button'));
 
-  // Replace the original element with the new block
+  // Compose the content cell as per example: heading, address label, address paragraph, map/waze links, CTA
+  const contentCells = [];
+  if (heading) contentCells.push(heading);
+  // First icon list is typically 'Endereço' label
+  if (iconLists.length > 0) contentCells.push(iconLists[0]);
+  // Address paragraph (if present)
+  if (paragraphs.length > 0) contentCells.push(...paragraphs);
+  // Any further icon lists are map links
+  if (iconLists.length > 1) {
+    for (let i = 1; i < iconLists.length; i++) {
+      contentCells.push(iconLists[i]);
+    }
+  }
+  // CTA button at the end
+  if (ctas.length > 0) contentCells.push(...ctas);
+
+  // The background image cell is empty for these hero blocks (in the HTML there is no img)
+  const table = [
+    ['Hero'],
+    [''],
+    [contentCells]
+  ];
+
+  const block = WebImporter.DOMUtils.createTable(table, document);
   element.replaceWith(block);
 }

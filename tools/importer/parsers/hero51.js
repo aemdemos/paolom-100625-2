@@ -1,72 +1,44 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. HEADER ROW: Block name matches the example exactly
+  // HERO block: 1 column, 3 rows: Header, Background image (optional), Content (heading, text, CTA)
+
+  // 1. Header row
   const headerRow = ['Hero'];
 
-  // 2. BACKGROUND IMAGE ROW: Get first <img> if present (may be null)
-  let backgroundImg = null;
-  // Look for an immediate or descendant <img>
-  const imgs = element.querySelectorAll('img');
-  if (imgs && imgs.length > 0) {
-    backgroundImg = imgs[0];
-  } else {
-    // Also check for inline style background image
-    let bgUrl = null;
-    let e = element;
-    do {
-      const style = e.getAttribute && e.getAttribute('style');
-      if (style && /background-image\s*:/i.test(style)) {
-        const m = style.match(/background-image\s*:\s*url\(["']?(.*?)["']?\)/i);
-        if (m && m[1]) bgUrl = m[1];
-        break;
-      }
-      e = e.parentElement;
-    } while (e && !bgUrl);
-    if (bgUrl) {
-      const img = document.createElement('img');
-      img.src = bgUrl;
-      backgroundImg = img;
-    }
-  }
-  // If no image, empty cell
-  const bgImgRow = [backgroundImg || ''];
+  // 2. Background image (optional); in this HTML, there is no img in the hero background.
+  // So, cell is empty (must be present as a row)
+  let backgroundImageCell = [''];
 
-  // 3. CONTENT ROW: Grab all semantic content in order (headings, paragraphs, cta)
-  // Only top-level heading+text+cta
-  const contentParts = [];
-  // We want to include all block-level elements that are children of the main content column.
-  // Usually a container with heading, some text, and a button.
-  // Try to find a top-level column container
-  let textContainer = null;
-  // Heuristic: look for div with heading inside
-  const candidates = element.querySelectorAll(':scope > div, :scope > * > div');
-  for (const candidate of candidates) {
-    if (candidate.querySelector('h1, h2, h3, h4, h5, h6')) {
-      textContainer = candidate;
-      break;
-    }
+  // 3. Content: get heading, paragraphs, CTA in order
+  const contentElements = [];
+
+  // Find the heading (INVESTIDORES)
+  const heading = element.querySelector('.elementor-widget-heading .elementor-heading-title');
+  if (heading) contentElements.push(heading);
+
+  // Find paragraphs (text-editor)
+  const textWidget = element.querySelector('.elementor-widget-text-editor .elementor-widget-container');
+  if (textWidget) {
+    // Append each direct paragraph
+    Array.from(textWidget.children).forEach(child => {
+      contentElements.push(child);
+    });
   }
-  if (!textContainer) textContainer = element;
-  // Add heading(s)
-  textContainer.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(h => contentParts.push(h));
-  // Add paragraphs
-  textContainer.querySelectorAll('p').forEach(p => contentParts.push(p));
-  // Add CTA button or link (but only the *first* prominent button/link, if present)
-  // Only add if it's not already part of a heading/paragraph
-  const cta = textContainer.querySelector('a, button');
+
+  // Find CTA button (if present)
+  const cta = element.querySelector('.elementor-widget-button a');
   if (cta) {
-    // Avoid duplicates
-    if (!contentParts.includes(cta)) {
-      contentParts.push(cta);
-    }
+    contentElements.push(cta);
   }
-  // If no content found, cell should be empty string
-  const contentRow = [contentParts.length ? contentParts : ''];
 
-  // 4. Compose block
-  const cells = [headerRow, bgImgRow, contentRow];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
-  
-  // 5. REPLACE
-  element.replaceWith(block);
+  // Ensure at least one content node is present to avoid an empty row (shouldn't occur for this block)
+
+  // Assemble table
+  const cells = [
+    headerRow,
+    backgroundImageCell,
+    [contentElements]
+  ];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(table);
 }

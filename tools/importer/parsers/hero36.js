@@ -1,58 +1,59 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Find the background image: first visible/prominent <img> in this block
-  let bgImg = null;
-  const imgs = Array.from(element.querySelectorAll('img'));
-  if (imgs.length > 0) {
-    bgImg = imgs[0];
-  }
+  // 1. Table header row exactly as in the example
+  const headerRow = ['Hero'];
+  // 2. Second row: background image (optional, often empty in this layout)
+  const bgRow = [''];
 
-  // 2. Get all text content after the background image (includes headings, paragraphs, etc)
-  // We'll capture all text content (headings, paragraphs, breadcrumbs, any text block), in DOM order
-  const contentBlocks = [];
-  // Helper: recursively collect text elements only (h1-h6, p, or div/span with only text and not images)
-  function collectTextNodes(node) {
+  // 3. Third row: All heading and text content, preserving order and semantics.
+  // We'll include headings, paragraphs, and other block content as in the examples.
+  // We'll extract immediate children from the main content container after any images or visual-divs.
+
+  // Find the main text container: look for first element with heading (h1-h6) as a child
+  let contentContainer = null;
+  const blocks = Array.from(element.querySelectorAll(':scope > div, :scope > section, :scope > header, :scope > main, :scope > article'));
+  for (const block of blocks) {
+    if (block.querySelector('h1, h2, h3, h4, h5, h6')) {
+      contentContainer = block;
+      break;
+    }
+  }
+  // fallback to element itself if not found
+  if (!contentContainer) contentContainer = element;
+
+  // Gather all headings and text elements in order
+  const contentElements = [];
+  Array.from(contentContainer.childNodes).forEach((node) => {
     if (node.nodeType === 1) {
-      // If this is a heading or paragraph
-      if (node.matches('h1, h2, h3, h4, h5, h6, p')) {
-        if (node.textContent && node.textContent.trim().length > 0) contentBlocks.push(node);
-      } else if (
-        node.children.length === 0 &&
-        node.textContent && node.textContent.trim().length > 0 &&
-        node.querySelectorAll('img').length === 0
-      ) {
-        // Plain text block/div/span/etc, not an image
-        contentBlocks.push(node);
-      } else {
-        // Recursively check children
-        Array.from(node.children).forEach(collectTextNodes);
+      // Only consider Elements
+      if (/^H[1-6]$/.test(node.tagName) || node.tagName === 'P') {
+        contentElements.push(node);
       }
+    } else if (node.nodeType === 3 && node.textContent.trim()) {
+      // Text node
+      const text = node.textContent.trim();
+      if (text.length) contentElements.push(document.createTextNode(text));
     }
-  }
-  // Start from direct children, skipping any containers that hold only images
-  let passedFirstImg = !bgImg; // If no image, just start from top
-  for (const child of element.children) {
-    if (!passedFirstImg && child.contains(bgImg)) {
-      passedFirstImg = true;
-      continue;
-    }
-    if (passedFirstImg) {
-      collectTextNodes(child);
-    }
-  }
-  // Fallback: If nothing found, collect all headings and paragraphs from anywhere in the block
-  if (contentBlocks.length === 0) {
-    element.querySelectorAll('h1, h2, h3, h4, h5, h6, p').forEach(el => {
-      if (el.textContent && el.textContent.trim().length > 0) contentBlocks.push(el);
+  });
+  // As a fallback, if there are no direct children, look deeper for all headings and paragraphs
+  if (contentElements.length === 0) {
+    contentContainer.querySelectorAll('h1, h2, h3, h4, h5, h6, p').forEach((el) => {
+      contentElements.push(el);
     });
   }
+  // If still nothing, add any text content from the container
+  if (contentElements.length === 0 && contentContainer.textContent.trim()) {
+    contentElements.push(document.createTextNode(contentContainer.textContent.trim()));
+  }
 
-  // 3. Table creation as per the markdown example: header, image (or empty), then all text in one cell
-  const tableCells = [
-    ['Hero'],
-    [bgImg ? bgImg : ''],
-    [contentBlocks.length > 0 ? contentBlocks : '']
+  // Compose the content row
+  const contentRow = [contentElements];
+
+  const cells = [
+    headerRow,
+    bgRow,
+    contentRow,
   ];
-  const table = WebImporter.DOMUtils.createTable(tableCells, document);
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

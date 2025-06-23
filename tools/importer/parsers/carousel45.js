@@ -1,101 +1,89 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the carousel widget within the element
-  const slidesWidget = element.querySelector('.elementor-widget-slides .elementor-widget-container');
-  if (!slidesWidget) return;
-  // Find the slides wrapper
-  const slidesWrapper = slidesWidget.querySelector('.elementor-slides-wrapper, .swiper-wrapper');
+  // Find the main slides wrapper
+  const slidesWrapper = element.querySelector('.elementor-slides-wrapper, .swiper-wrapper');
   if (!slidesWrapper) return;
-  // Collect unique slides (ignore duplicates by key)
-  const slideKeySet = new Set();
+
+  // Find all unique slides
+  const slideElsAll = Array.from(slidesWrapper.children).filter((el) => el.classList.contains('swiper-slide'));
+  const seen = new Set();
   const slides = [];
-  slidesWrapper.querySelectorAll('.swiper-slide').forEach((slide) => {
-    // Use data-swiper-slide-index + repeater id to prevent duplicate slides
-    const repeaterId = slide.className.match(/elementor-repeater-item-([a-z0-9]+)/i)?.[1] || '';
-    const slideIdx = slide.getAttribute('data-swiper-slide-index');
-    const key = repeaterId + ':' + slideIdx;
-    if (!slideKeySet.has(key)) {
-      slides.push(slide);
-      slideKeySet.add(key);
+  slideElsAll.forEach((el) => {
+    const idx = el.getAttribute('data-swiper-slide-index');
+    if (idx !== null && !seen.has(idx)) {
+      seen.add(idx);
+      slides.push(el);
     }
   });
+  if (slides.length === 0) return;
 
-  // Helper to extract background image from a slide (elementor puts it in inline style)
-  function getSlideImage(slide) {
-    const bgDiv = slide.querySelector('.swiper-slide-bg');
-    if (bgDiv) {
-      // backgroundImage is usually set as a style, but fallback to HTML attribute if not
-      let bgUrl = '';
-      if (bgDiv.style && bgDiv.style.backgroundImage) {
-        const urlMatch = bgDiv.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/i);
-        if (urlMatch && urlMatch[1]) bgUrl = urlMatch[1];
-      } else if (bgDiv.getAttribute('style')) {
-        const urlMatch = bgDiv.getAttribute('style').match(/background-image:\s*url\(["']?(.*?)["']?\)/i);
-        if (urlMatch && urlMatch[1]) bgUrl = urlMatch[1];
-      }
-      if (bgUrl) {
-        const img = document.createElement('img');
-        img.src = bgUrl;
-        img.alt = '';
-        return img;
-      }
-    }
-    // Try to find direct img element
-    const img = slide.querySelector('img');
+  // Helper: Extract image from slide (only if present and real)
+  function getSlideImage(slideEl) {
+    // Try to get <img>
+    const img = slideEl.querySelector('img');
     if (img) return img;
-    return null;
-  }
-
-  // Helper to extract text content from the slide
-  function getSlideText(slide) {
-    // .swiper-slide-contents is a common wrapper for all textual content
-    const contents = slide.querySelector('.swiper-slide-contents');
-    if (contents && contents.childNodes.length) {
-      return contents;
-    }
-    // If contents are within an <a> .swiper-slide-inner, use it (for CTA links)
-    const innerLink = slide.querySelector('a.swiper-slide-inner');
-    if (innerLink) {
-      const linkContents = innerLink.querySelector('.swiper-slide-contents');
-      if (linkContents && linkContents.childNodes.length) return linkContents;
-      // If not, return the link itself if it has content
-      if (innerLink.childNodes.length > 0) return innerLink;
-    }
-    // Fallback to .swiper-slide-inner
-    const innerDiv = slide.querySelector('.swiper-slide-inner');
-    if (innerDiv && innerDiv.childNodes.length > 0) {
-      // Exclude the .swiper-slide-bg background div if accidentally included
-      if (
-        innerDiv.childNodes.length === 1 &&
-        innerDiv.firstElementChild &&
-        innerDiv.firstElementChild.classList.contains('swiper-slide-bg')
-      ) {
-        return null;
+    // Try inline style background-image
+    const bgDiv = slideEl.querySelector('.swiper-slide-bg');
+    if (bgDiv && bgDiv.style && bgDiv.style.backgroundImage) {
+      const match = bgDiv.style.backgroundImage.match(/url\(["']?(.*?)["']?\)/);
+      if (match && match[1]) {
+        const imgEl = document.createElement('img');
+        imgEl.src = match[1];
+        return imgEl;
       }
-      return innerDiv;
+    }
+    // Try data-background attribute
+    if (bgDiv && bgDiv.hasAttribute('data-background')) {
+      const imgEl = document.createElement('img');
+      imgEl.src = bgDiv.getAttribute('data-background');
+      return imgEl;
     }
     return null;
   }
 
-  // Compose the table rows
-  const rows = [];
-  // Header row matches example exactly
-  rows.push(['Carousel (carousel45)']);
-  // For each slide, build a row with [image, text] or [image] if no text
-  slides.forEach((slide) => {
-    const img = getSlideImage(slide);
-    const textContent = getSlideText(slide);
-    if (img && textContent) {
-      rows.push([img, textContent]);
-    } else if (img) {
-      rows.push([img]);
-    } else if (textContent) {
-      rows.push([textContent]);
+  // Helper: Extract text content from slide (only if present and real)
+  function getSlideText(slideEl) {
+    // .swiper-slide-inner can be a <a> or <div>
+    let inner = slideEl.querySelector('.swiper-slide-inner');
+    if (inner) {
+      // Look for .swiper-slide-contents inside .swiper-slide-inner
+      const content = inner.querySelector('.swiper-slide-contents');
+      if (content && content.childNodes.length > 0 && content.textContent.trim()) {
+        return content;
+      }
+      // If inner itself has visible text (rare)
+      if (inner.childNodes.length > 0 && inner.textContent.trim()) {
+        return inner;
+      }
+    }
+    // Fallback: direct .swiper-slide-contents
+    const content = slideEl.querySelector('.swiper-slide-contents');
+    if (content && content.childNodes.length > 0 && content.textContent.trim()) {
+      return content;
+    }
+    // Otherwise, return null (don't invent)
+    return null;
+  }
+
+  const cells = [
+    ['Carousel (carousel45)']
+  ];
+
+  slides.forEach((slideEl) => {
+    const img = getSlideImage(slideEl);
+    const text = getSlideText(slideEl);
+    // Only add a row if at least one of img or text is present
+    if (img || text) {
+      cells.push([
+        img || '',
+        text || ''
+      ]);
     }
   });
-  // Only create if there's at least one slide row
-  if (rows.length > 1) {
-    const block = WebImporter.DOMUtils.createTable(rows, document);
+
+  // Only create the table if there is at least 1 row of content (besides header)
+  if (cells.length > 1) {
+    const block = WebImporter.DOMUtils.createTable(cells, document);
     element.replaceWith(block);
   }
 }

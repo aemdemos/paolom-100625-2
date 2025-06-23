@@ -1,55 +1,28 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Table header row, exactly as in the example
-  const headerRow = ['Hero'];
+  // 1. Table header as in the example
+  const tableRows = [['Hero']];
 
-  // 2. Image row: find the most prominent/first image in the section
-  let imgEl = null;
-  // Try to find the first <img> that is not decorative or hidden
-  const imgs = Array.from(element.querySelectorAll('img'));
-  if (imgs.length > 0) {
-    imgEl = imgs[0];
-  }
-  const imageRow = [imgEl ? imgEl : ''];
+  // 2. Row 2: Background image (first prominent .elementor-widget-image img)
+  let bgImg = '';
+  const imgEl = element.querySelector('.elementor-widget-image img') || element.querySelector('img');
+  if (imgEl) bgImg = imgEl;
+  tableRows.push([bgImg || '']);
 
-  // 3. Content row: gather all heading and paragraph content in source order,
-  // excluding breadcrumbs and purely visual elements
-  const content = [];
-
-  // Gather all elements that are headings or paragraphs, but not inside breadcrumbs
-  const mainContentElements = [];
-  const isBreadcrumb = (el) => el.closest('.sensia-breadcrumbs, .breadcrumbs, nav[aria-label="Breadcrumb"]');
-
-  // Collect all headings (h1-h6) and paragraphs, in DOM order, not duplicating
-  element.querySelectorAll('h1, h2, h3, h4, h5, h6, p').forEach((el) => {
-    if (!isBreadcrumb(el) && el.textContent.trim().length > 0) {
-      mainContentElements.push(el);
-    }
-  });
-
-  // For extra flexibility: if no headings or paragraphs, look for divs with text
-  if (mainContentElements.length === 0) {
-    element.querySelectorAll('div').forEach((el) => {
-      if (!isBreadcrumb(el) && el.textContent.trim().length > 0 && el.children.length === 0) {
-        mainContentElements.push(el);
-      }
-    });
+  // 3. Row 3: Only main heading (h1). If not present, fallback to h2. Not both.
+  let heading = element.querySelector('h1');
+  if (!heading || !heading.textContent.trim()) {
+    heading = element.querySelector('h2');
   }
 
-  // Push all content elements into content array preserving their reference
-  mainContentElements.forEach((el) => content.push(el));
+  // Only include the heading if its text is non-empty
+  let cellContent = '';
+  if (heading && heading.textContent.trim()) {
+    cellContent = heading;
+  }
+  tableRows.push([cellContent]);
 
-  // Compose the content cell
-  const contentCell = content.length === 0 ? '' : (content.length === 1 ? content[0] : content);
-
-  // Compose rows for the table
-  const rows = [
-    headerRow,
-    imageRow,
-    [contentCell]
-  ];
-  
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  // Replace the original element with the new table
-  element.replaceWith(block);
+  // 4. Replace element with correct table
+  const table = WebImporter.DOMUtils.createTable(tableRows, document);
+  element.replaceWith(table);
 }

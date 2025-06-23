@@ -1,58 +1,43 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the two main column containers
-  const columnDivs = element.querySelectorAll(':scope > div');
-  if (columnDivs.length !== 2) return;
+  // Get the two main columns
+  const columns = Array.from(element.querySelectorAll(':scope > div'));
+  if (columns.length !== 2) return;
 
-  // LEFT COLUMN: Collect all widgets/content
-  const leftWidgets = columnDivs[0].querySelectorAll(':scope > div');
-  const leftContent = [];
-  leftWidgets.forEach((widget) => {
-    const widgetContainer = widget.querySelector('.elementor-widget-container');
-    if (widgetContainer) {
-      // If single element inside, unwrap
-      if (widgetContainer.childElementCount === 1) {
-        leftContent.push(widgetContainer.firstElementChild);
-      } else {
-        // Multiple children, push all
-        Array.from(widgetContainer.childNodes).forEach((node) => {
-          if (node.nodeType === 1) {
-            leftContent.push(node);
-          } else if (node.nodeType === 3 && node.textContent.trim()) {
-            // If text node is not just whitespace
-            const span = document.createElement('span');
-            span.textContent = node.textContent;
-            leftContent.push(span);
-          }
-        });
+  const leftCol = columns[0];
+  const rightCol = columns[1];
+
+  // Left column: gather all text content
+  const leftContentFragments = [];
+  // Select all .elementor-widget-text-editor .elementor-widget-container in leftCol
+  leftCol.querySelectorAll('.elementor-widget-text-editor .elementor-widget-container').forEach(widget => {
+    // Append all childNodes (preserving p, ul, strong, br, etc)
+    Array.from(widget.childNodes).forEach(node => {
+      if (node.nodeType === Node.ELEMENT_NODE || (node.nodeType === Node.TEXT_NODE && node.textContent.trim())) {
+        leftContentFragments.push(node);
       }
-    }
+    });
   });
+  // If nothing, add a blank div to not break table
+  const leftContent = leftContentFragments.length === 1
+    ? leftContentFragments[0]
+    : leftContentFragments.length > 1 ? leftContentFragments : document.createElement('div');
 
-  // RIGHT COLUMN: Get the image in the widget
-  let rightContent = null;
-  const rightWidget = columnDivs[1].querySelector('.elementor-widget-container');
-  if (rightWidget) {
-    const img = rightWidget.querySelector('img');
+  // Right column: image widget
+  let rightContent = document.createElement('div');
+  const imgWidget = rightCol.querySelector('.elementor-widget-image .elementor-widget-container');
+  if (imgWidget) {
+    const img = imgWidget.querySelector('img');
     if (img) {
       rightContent = img;
-    } else {
-      // fallback in case the structure is different
-      if (rightWidget.childElementCount === 1) {
-        rightContent = rightWidget.firstElementChild;
-      } else {
-        rightContent = rightWidget;
-      }
     }
   }
 
-  // Header row as per instructions
-  const headerRow = ['Columns (columns66)'];
+  // Table
   const cells = [
-    headerRow,
+    ['Columns (columns66)'],
     [leftContent, rightContent]
   ];
-
-  const table = WebImporter.DOMUtils.createTable(cells, document);
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

@@ -1,53 +1,31 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Collect top-level columns (children of .e-con-inner)
-  const inner = element.querySelector(':scope > .e-con-inner');
-  let columns = [];
-  if (inner) {
-    columns = Array.from(inner.children);
-  } else {
-    columns = Array.from(element.children); // fallback
-  }
-  // Prepare columns content array
-  const cols = [];
+  // Get the main content columns
+  const inner = element.querySelector('.e-con-inner');
+  if (!inner) return;
+  const columns = Array.from(inner.children).filter(el => el.classList.contains('e-con'));
+  if (columns.length !== 2) return;
 
-  // Column 1: Find the image (do NOT create or clone)
-  let col1Img = null;
-  if (columns[0]) {
-    col1Img = columns[0].querySelector('img');
-    if (col1Img) {
-      cols.push(col1Img);
-    } else {
-      cols.push('');
-    }
-  } else {
-    cols.push('');
-  }
+  // Left column: image
+  let leftCell = null;
+  const image = columns[0].querySelector('img');
+  if (image) leftCell = image;
+  else leftCell = document.createElement('div');
 
-  // Column 2: heading + paragraphs (preserve structure, reference existing nodes)
-  const col2Content = [];
-  if (columns[1]) {
-    // Heading
-    const heading = columns[1].querySelector('h2');
-    if (heading) col2Content.push(heading);
-    // All paragraphs from text editor widgets
-    const editors = columns[1].querySelectorAll('.elementor-widget-text-editor .elementor-widget-container');
-    editors.forEach(container => {
-      Array.from(container.childNodes).forEach(node => {
-        if (node.nodeType === Node.ELEMENT_NODE || (node.nodeType === Node.TEXT_NODE && node.textContent.trim())) {
-          col2Content.push(node);
-        }
-      });
-    });
-    cols.push(col2Content.length === 1 ? col2Content[0] : col2Content);
-  } else {
-    cols.push('');
+  // Right column: heading and text
+  let rightCell = document.createElement('div');
+  const heading = columns[1].querySelector('.elementor-widget-heading .elementor-heading-title');
+  if (heading) rightCell.appendChild(heading);
+  const textWidget = columns[1].querySelector('.elementor-widget-text-editor .elementor-widget-container');
+  if (textWidget) {
+    Array.from(textWidget.childNodes).forEach(node => rightCell.appendChild(node));
   }
+  if (!rightCell.hasChildNodes()) rightCell = document.createElement('div');
 
-  // Build the table cells
+  // Compose the block table with header as one cell, then content as two cells
   const cells = [
     ['Columns (columns11)'],
-    cols
+    [leftCell, rightCell]
   ];
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);

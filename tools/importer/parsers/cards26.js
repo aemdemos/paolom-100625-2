@@ -1,69 +1,40 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find cards container
-  const grid = element.querySelector('.elementor-loop-container.elementor-grid');
+  // Block header row
+  const headerRow = ['Cards (cards26)'];
+  const cells = [headerRow];
+
+  // 1. Find the card grid container
+  const grid = element.querySelector('.elementor-loop-container');
   if (!grid) return;
-  const cards = Array.from(grid.querySelectorAll('[data-elementor-type="loop-item"]'));
-  const cells = [];
-  cells.push(['Cards (cards26)']); // Exact header
 
+  // 2. Find all card items
+  const cards = grid.querySelectorAll('[data-elementor-type="loop-item"]');
+  if (!cards.length) return;
+
+  // 3. For each card, extract the image and the text cell
   cards.forEach(card => {
-    // Image cell
-    let img = card.querySelector('.card-imoveis-item img');
-    // Text cell
-    const textParts = [];
+    // Get the first image in the card as the image cell
+    const img = card.querySelector('img');
 
-    // Status (top highlight row)
-    const statusLi = card.querySelector('.status-da-obra-card-imoveis .elementor-post-info__terms-list-item');
-    if (statusLi) {
-      const statusDiv = document.createElement('div');
-      statusDiv.textContent = statusLi.textContent.trim();
-      statusDiv.style.textTransform = 'uppercase';
-      statusDiv.style.fontWeight = 'bold';
-      textParts.push(statusDiv);
+    // For the text cell, select the .card-imoveis-dados container if present
+    let textCell = card.querySelector('.card-imoveis-dados');
+    // Fallback: try to find a container that looks like text
+    if (!textCell) {
+      // If not found, extract all possible text containers except image block
+      // This is a fallback, but should not normally be used for this structure
+      const possibleTextContainers = Array.from(card.children).filter(child => !child.contains(img));
+      textCell = possibleTextContainers.length === 1 ? possibleTextContainers[0] : possibleTextContainers;
     }
 
-    // Title: from name link (always bold, usually after status)
-    const titleLink = card.querySelector('.elementor-element-8fba482 .elementor-post-info__item--type-custom');
-    if (titleLink) {
-      // Use <strong> to match bold
-      const titleStrong = document.createElement('strong');
-      // Some titles are inside <a><span> Title </span></a>
-      titleStrong.textContent = titleLink.textContent.trim();
-      textParts.push(titleStrong);
-    }
-
-    // Location
-    const location = card.querySelector('.elementor-element-b41a2d1 .elementor-post-info__terms-list-item');
-    if (location) {
-      const locDiv = document.createElement('div');
-      locDiv.textContent = location.textContent.trim();
-      textParts.push(locDiv);
-    }
-
-    // Property highlights (list after divider)
-    const featuresList = card.querySelector(
-      '.elementor-element-c9e3915 .elementor-widget-container ul.elementor-post-info'
-    );
-    if (featuresList) {
-      featuresList.querySelectorAll('li').forEach(li => {
-        const feature = li.querySelector('.elementor-post-info__terms-list-item');
-        if (feature) {
-          const featP = document.createElement('p');
-          featP.textContent = feature.textContent.trim();
-          textParts.push(featP);
-        }
-      });
-    }
-
-    // Compose one row per card: [image, [content]]
+    // Always reference existing elements, not clones
     cells.push([
-      img,
-      textParts
+      img || '',
+      textCell || '',
     ]);
   });
 
-  // Create table and replace the original block
+  // 4. Create the table and replace the original element
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

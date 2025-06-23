@@ -1,58 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get direct children to distinguish content column and image column
-  const children = Array.from(element.querySelectorAll(':scope > div'));
-  let contentDiv = null;
-  let imageDiv = null;
+  // Find direct child containers
+  const containers = Array.from(element.querySelectorAll(':scope > div'));
+  let imageEl = null;
+  let contentEls = [];
 
-  // Heuristics: The div with image is the one with an <img>, content is the other
-  children.forEach((child) => {
-    if (child.querySelector('img')) {
-      imageDiv = child;
+  // There are two main containers: one for text/button, one for image
+  containers.forEach(cont => {
+    const img = cont.querySelector('img');
+    if (img && !imageEl) {
+      imageEl = img;
     } else {
-      contentDiv = child;
+      // This is the text/button container, gather its widget containers
+      const widgetContainers = Array.from(cont.querySelectorAll('.elementor-widget-container'));
+      contentEls.push(...widgetContainers);
     }
   });
 
-  // Extract the image element for hero background (optional)
-  let imgEl = null;
-  if (imageDiv) {
-    imgEl = imageDiv.querySelector('img');
-  }
+  // Compose content cell: preserve element order and spacing
+  const contentCell = [];
+  contentEls.forEach((el, idx) => {
+    contentCell.push(el);
+    // Add spacing (preserved visually) except after the last element
+    if (idx < contentEls.length - 1) {
+      contentCell.push(document.createElement('br'));
+    }
+  });
 
-  // Gather all content bits for the text/cta column
-  const contentBits = [];
-  if (contentDiv) {
-    // The contentDiv will have several elementor widgets as direct children
-    const widgets = Array.from(contentDiv.querySelectorAll(':scope > div'));
-    widgets.forEach(widget => {
-      const container = widget.querySelector('.elementor-widget-container');
-      if (container) {
-        // For each child in the widget container, add directly
-        Array.from(container.children).forEach(child => {
-          // Only append if child has content
-          if (child.tagName === 'H1' || child.tagName === 'H2' || child.tagName === 'H3' || child.tagName === 'H4' || child.tagName === 'H5' || child.tagName === 'H6') {
-            contentBits.push(child);
-          } else if (child.tagName === 'P') {
-            contentBits.push(child);
-          } else if (child.tagName === 'DIV') {
-            // Could be button wrapper
-            const link = child.querySelector('a');
-            if (link) contentBits.push(link);
-          }
-        });
-      }
-    });
-  }
+  // Ensure the table has the correct header from the example
+  const headerRow = ['Hero'];
+  // Background image row (even if empty)
+  const bgRow = [imageEl ? imageEl : ''];
+  // Content row (even if empty)
+  const contentRow = [contentCell.length > 0 ? contentCell : ''];
 
-  // Build the table according to spec: 1 column with 3 rows (header, image, content)
-  // Header must match example exactly
-  const tableRows = [
-    ['Hero'],
-    [imgEl ? imgEl : ''],
-    [contentBits.length ? contentBits : '']
-  ];
+  const rows = [headerRow, bgRow, contentRow];
+  const table = WebImporter.DOMUtils.createTable(rows, document);
 
-  const table = WebImporter.DOMUtils.createTable(tableRows, document);
+  // Replace the original element with the block table
   element.replaceWith(table);
 }

@@ -1,31 +1,28 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get the heading (h3)
-  const heading = element.querySelector('h3');
-  // Get the paragraph
-  const paragraph = element.querySelector('p');
-  // Get the first visible CTA button with an href that isn't '#'
-  let cta = null;
-  const buttons = element.querySelectorAll('a.elementor-button');
-  for (const btn of buttons) {
-    if (btn.getAttribute('href') && btn.getAttribute('href') !== '#') {
-      cta = btn;
-      break;
-    }
-  }
-  // Gather content for the 3rd row of the table
+  // Build the Hero block table as per spec: header, background (empty), content
+  const cells = [];
+  // Header as in the example
+  cells.push(['Hero']);
+  // Background image cell (empty, none in provided HTML)
+  cells.push(['']);
+  // Content cell
   const content = [];
-  if (heading) content.push(heading);
-  if (paragraph) content.push(paragraph);
-  if (cta) content.push(cta);
 
-  // Compose table rows: header, (optional bg image), content
-  // No background image present in HTML so keep 2nd row empty
-  const cells = [
-    ['Hero'],
-    [''],
-    [content]
-  ];
+  // Find heading (prefer h1-h3), use first found
+  const heading = element.querySelector('h1, h2, h3, h4, h5, h6');
+  if (heading) content.push(heading);
+
+  // Find subheading/paragraph (first <p>)
+  const paragraph = element.querySelector('p');
+  if (paragraph) content.push(paragraph);
+
+  // Find the first visible CTA link (a with href not '#'), if any
+  const ctaButton = Array.from(element.querySelectorAll('a.elementor-button')).find(a => a.getAttribute('href') && a.getAttribute('href') !== '#');
+  if (ctaButton) content.push(ctaButton);
+
+  cells.push([content]);
+
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }
