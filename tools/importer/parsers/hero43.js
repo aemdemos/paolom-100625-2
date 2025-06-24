@@ -1,28 +1,30 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Table header as in the example
-  const tableRows = [['Hero']];
+  // 1. Create the table header row as in the example
+  const tableRows = [
+    ['Hero']
+  ];
 
-  // 2. Row 2: Background image (first prominent .elementor-widget-image img)
-  let bgImg = '';
-  const imgEl = element.querySelector('.elementor-widget-image img') || element.querySelector('img');
-  if (imgEl) bgImg = imgEl;
-  tableRows.push([bgImg || '']);
+  // 2. Background image cell (row 2): In this source, there is NO <img> in the hero container, so the cell should be empty as in the example.
+  tableRows.push(['']);
 
-  // 3. Row 3: Only main heading (h1). If not present, fallback to h2. Not both.
-  let heading = element.querySelector('h1');
-  if (!heading || !heading.textContent.trim()) {
-    heading = element.querySelector('h2');
+  // 3. Title and description cell (row 3):
+  // Find the main heading (h1/h2/h3/.elementor-heading-title)
+  let heading = element.querySelector('h1, h2, h3, .elementor-heading-title');
+  // Find all non-empty <p> elements
+  const paragraphs = Array.from(element.querySelectorAll('p')).filter(p => p.textContent.trim());
+
+  // Compose cell content preserving order and structure
+  const content = [];
+  if (heading) content.push(heading);
+  if (paragraphs.length) {
+    if (content.length) content.push(document.createElement('br'));
+    content.push(...paragraphs);
   }
 
-  // Only include the heading if its text is non-empty
-  let cellContent = '';
-  if (heading && heading.textContent.trim()) {
-    cellContent = heading;
-  }
-  tableRows.push([cellContent]);
+  tableRows.push([content]);
 
-  // 4. Replace element with correct table
-  const table = WebImporter.DOMUtils.createTable(tableRows, document);
-  element.replaceWith(table);
+  // 4. Build and replace
+  const block = WebImporter.DOMUtils.createTable(tableRows, document);
+  element.replaceWith(block);
 }

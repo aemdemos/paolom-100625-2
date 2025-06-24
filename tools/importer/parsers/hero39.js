@@ -1,33 +1,26 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // According to the example, the table has 1 column and 3 rows:
-  // Row 1: 'Hero' (header)
-  // Row 2: background image (optional, empty if absent)
-  // Row 3: Heading and block content (optional)
+  // The example does NOT have a Section Metadata block, so no hr or metadata.
 
-  // 1. HEADER: Always 'Hero'
+  // 1. Hero table: 1 column, 3 rows: header, background (optional: empty), content with heading.
   const headerRow = ['Hero'];
+  const backgroundRow = ['']; // No background image in the HTML, so empty cell.
 
-  // 2. BACKGROUND IMAGE: In this HTML, no background image is present as <img>; leave blank
-  const imageRow = [''];
-
-  // 3. Heading or content: extract heading as element
-  let textContent = '';
-  let headingEl = null;
-  // Search for a heading element (h1-h6) inside any nested element
-  const heading = element.querySelector('h1, h2, h3, h4, h5, h6');
-  if (heading) {
-    headingEl = heading;
+  // Extract the direct heading (h1-h6) from the element (or one of its children).
+  let heading = '';
+  // Look for any heading tags inside the element, prefer the largest (h1, then h2, ...)
+  const headingEl = element.querySelector('h1, h2, h3, h4, h5, h6');
+  if (headingEl) {
+    heading = headingEl;
   }
-  const contentRow = [headingEl ? headingEl : ''];
 
-  // Compose cells array for the block table
-  const cells = [
+  // Table rows: header, background, content
+  const rows = [
     headerRow,
-    imageRow,
-    contentRow
+    backgroundRow,
+    [heading || ''],
   ];
-  const block = WebImporter.DOMUtils.createTable(cells, document);
-  // Replace the original element with the new block table
-  element.replaceWith(block);
+
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }

@@ -1,91 +1,101 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header must match exactly
-  const headerRow = ['Carousel (carousel21)'];
+  // Header row for the block
+  const rows = [['Carousel (carousel21)']];
 
-  // Find the carousel widget (with slides)
-  const carouselWidget = element.querySelector('.elementor-widget-media-carousel, .elementor-skin-carousel');
-  if (!carouselWidget) return;
-  const swiperWrapper = carouselWidget.querySelector('.swiper-wrapper');
-  if (!swiperWrapper) return;
+  // Get .e-con-inner if present; otherwise use main element
+  const inner = element.querySelector('.e-con-inner') || element;
 
-  // Get all non-duplicate slides; fallback to all if none
-  let allSlides = Array.from(swiperWrapper.children).filter(el => el.classList.contains('swiper-slide'));
-  let slides = allSlides.filter(el => !el.classList.contains('swiper-slide-duplicate'));
-  if (slides.length === 0) slides = allSlides;
-  if (slides.length === 0) return;
-
-  // Compose each row for each slide
-  function getSlideImage(slide) {
-    const bg = slide.querySelector('.elementor-carousel-image');
-    let imgUrl = '';
-    let alt = '';
-    if (bg) {
-      // Try style (background-image)
-      const style = bg.getAttribute('style') || '';
-      const m = style.match(/background-image:\s*url\(["']?([^"')]+)["']?\)/);
-      if (m) {
-        imgUrl = m[1];
-      } else if (bg.hasAttribute('data-background')) {
-        imgUrl = bg.getAttribute('data-background');
-      }
-      alt = bg.getAttribute('aria-label') || '';
-    }
-    if (!imgUrl) {
-      const img = slide.querySelector('img');
-      if (img) {
-        imgUrl = img.src;
-        alt = img.alt || '';
-      }
-    }
-    if (!imgUrl) return '';
-    const imgElem = document.createElement('img');
-    imgElem.src = imgUrl;
-    imgElem.alt = alt;
-    imgElem.loading = 'eager';
-    return imgElem;
+  // Gather all nodes before the carousel for intro text (heading, paragraph, etc.)
+  const nodes = Array.from(inner.children);
+  let carouselIdx = nodes.findIndex(n =>
+    (n.querySelector && n.querySelector('.elementor-widget-media-carousel')) || (n.classList && n.classList.contains('elementor-widget-media-carousel'))
+  );
+  // fallback if it is a child container with the carousel
+  if (carouselIdx === -1) {
+    carouselIdx = nodes.findIndex(n =>
+      n.querySelector && n.querySelector('.swiper-wrapper')
+    );
+  }
+  let introNodes = [];
+  if (carouselIdx !== -1 && carouselIdx > 0) {
+    introNodes = nodes.slice(0, carouselIdx);
   }
 
-  function getSlideText(slide) {
-    // Try to get title and description from the anchor attributes
-    const link = slide.querySelector('a');
-    let title = '', desc = '';
-    if (link) {
-      title = link.getAttribute('data-elementor-lightbox-title') || '';
-      desc = link.getAttribute('data-elementor-lightbox-description') || '';
-    }
-    // Fallback: aria-label on .elementor-carousel-image
-    if (!title) {
-      const bg = slide.querySelector('.elementor-carousel-image');
-      if (bg) title = bg.getAttribute('aria-label') || '';
-    }
-    // Compose as semantic HTML: heading and paragraph if available
-    const content = [];
-    if (title) {
-      const h3 = document.createElement('h3');
-      h3.textContent = title;
-      content.push(h3);
-    }
-    if (desc) {
-      const p = document.createElement('p');
-      p.textContent = desc;
-      content.push(p);
-    }
-    // If no content, return empty string to ensure cell is not missing
-    return content.length > 0 ? content : '';
+  // If there is any intro content (headings, paragraphs), add as a full-width row
+  if (introNodes.length) {
+    const wrapper = document.createElement('div');
+    introNodes.forEach(node => wrapper.appendChild(node));
+    rows.push([[wrapper]]); // single cell, full-width row
   }
 
-  // Compose rows for each slide
-  const rows = slides.map(slide => {
-    return [getSlideImage(slide), getSlideText(slide)];
-  });
-
-  // Build the cell matrix
-  // Check for heading/text content blocks above the carousel, and preserve them
-  // (If not part of the carousel block, do NOT add them per the example markdown)
-  const cells = [headerRow, ...rows];
-  
-  // Create and replace
-  const block = WebImporter.DOMUtils.createTable(cells, document);
+  // Find carousel widget
+  const carouselWidget = element.querySelector('.elementor-widget-media-carousel');
+  if (carouselWidget) {
+    const swiperWrapper = carouselWidget.querySelector('.swiper-wrapper');
+    if (swiperWrapper) {
+      // Only unique slides by data-swiper-slide-index
+      const seenIndexes = new Set();
+      const slides = Array.from(swiperWrapper.children).filter(slide => {
+        if (!slide.classList.contains('swiper-slide')) return false;
+        const idx = slide.getAttribute('data-swiper-slide-index');
+        if (seenIndexes.has(idx)) return false;
+        seenIndexes.add(idx);
+        return true;
+      });
+      slides.forEach(slide => {
+        // --- IMAGE ---
+        let imgEl = null;
+        let slideLink = slide.querySelector('a');
+        if (slideLink) {
+          let imgDiv = slideLink.querySelector('.elementor-carousel-image');
+          let imageUrl = '';
+          if (imgDiv) {
+            if (imgDiv.style.backgroundImage && imgDiv.style.backgroundImage.startsWith('url(')) {
+              imageUrl = imgDiv.style.backgroundImage.slice(4, -1).replace(/^"|"$/g, '');
+            } else if (imgDiv.getAttribute('data-background')) {
+              imageUrl = imgDiv.getAttribute('data-background');
+            }
+            if (imageUrl) {
+              imgEl = document.createElement('img');
+              imgEl.src = imageUrl;
+              imgEl.loading = 'lazy';
+              const alt = imgDiv.getAttribute('aria-label') || slideLink.getAttribute('data-elementor-lightbox-title') || '';
+              if (alt) imgEl.alt = alt;
+            }
+          }
+        }
+        // --- TEXT ---
+        let textCell = '';
+        let textContent = [];
+        if (slideLink) {
+          // Use data-elementor-lightbox-title as heading (if present)
+          const title = slideLink.getAttribute('data-elementor-lightbox-title');
+          if (title) {
+            const h3 = document.createElement('h3');
+            h3.textContent = title;
+            textContent.push(h3);
+          }
+          // Use data-elementor-lightbox-description as paragraph (if present)
+          const desc = slideLink.getAttribute('data-elementor-lightbox-description');
+          if (desc) {
+            const p = document.createElement('p');
+            p.textContent = desc;
+            textContent.push(p);
+          }
+        }
+        if (textContent.length) {
+          const wrapper = document.createElement('div');
+          textContent.forEach(n => wrapper.appendChild(n));
+          textCell = wrapper;
+        }
+        if (imgEl) {
+          rows.push([imgEl, textCell]);
+        }
+      });
+    }
+  }
+  // Output the block table
+  const block = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(block);
 }

@@ -1,45 +1,32 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get the two main columns (first and second)
-  let columns = [];
-  // Try to get direct children from .e-con-inner, else fallback
-  const inner = element.querySelector(':scope > .e-con-inner');
-  let colElements;
-  if (inner) {
-    colElements = inner.querySelectorAll(':scope > div');
-  } else {
-    colElements = element.querySelectorAll(':scope > div');
-  }
-  if (colElements.length < 2) {
-    // Not enough columns to form a two-column block, use whatever is available in one cell
-    const table = WebImporter.DOMUtils.createTable([
-      ['Columns (columns2)'],
-      [element],
-    ], document);
-    element.replaceWith(table);
-    return;
-  }
-  // For each column, collect all relevant block content as a wrapper div
-  for (let i = 0; i < 2; i++) {
-    const col = colElements[i];
-    // gather all children inside .e-con-inner if present
-    let colInner = col.querySelector(':scope > .e-con-inner');
-    let colChildren;
-    if (colInner) {
-      colChildren = Array.from(colInner.children);
-    } else {
-      colChildren = Array.from(col.children);
-    }
-    // Group all children into a div for structure
-    const wrapper = document.createElement('div');
-    colChildren.forEach(child => wrapper.appendChild(child));
-    columns.push(wrapper);
-  }
-  // Compose table cells as per block definition
-  // Fix: header is a single cell (not columns.length cells)
+  // Find the main container holding columns
+  const inner = element.querySelector(':scope > .e-con-inner') || element;
+  // Get all immediate children (columns)
+  const columnElements = Array.from(inner.children).filter(el => el.tagName === 'DIV');
+
+  // For each column, gather all visible content (including text nodes and all children)
+  const columns = columnElements.map(colEl => {
+    const colInner = colEl.querySelector(':scope > .e-con-inner') || colEl;
+    const nodes = [];
+    Array.from(colInner.childNodes).forEach(n => {
+      if (n.nodeType === Node.ELEMENT_NODE) {
+        nodes.push(n);
+      } else if (n.nodeType === Node.TEXT_NODE && n.textContent.trim()) {
+        const span = document.createElement('span');
+        span.textContent = n.textContent;
+        nodes.push(span);
+      }
+    });
+    if (nodes.length === 1) return nodes[0];
+    if (nodes.length > 1) return nodes;
+    return '';
+  });
+
+  // Build the table: header row should be a single cell, then a row with as many columns as needed
   const cells = [
     ['Columns (columns2)'],
-    columns,
+    columns
   ];
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);

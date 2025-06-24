@@ -1,94 +1,44 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row exactly as required
+  // Cards are top-level e-loop-item inside element
+  const cards = element.querySelectorAll('.elementor-loop-container > .e-loop-item');
+
+  const rows = [];
   const headerRow = ['Cards (cards61)'];
+  rows.push(headerRow);
 
-  // Find the main grid of cards
-  const cardsContainer = element.querySelector('.elementor-loop-container.elementor-grid');
-  if (!cardsContainer) return;
-
-  // Each card is a [data-elementor-type="loop-item"]
-  const cardElements = Array.from(cardsContainer.querySelectorAll('[data-elementor-type="loop-item"]'));
-
-  // For each card, extract [img, text content]
-  const rows = cardElements.map(card => {
-    // --- First cell: Image ---
-    let img = null;
-    const imgWidget = card.querySelector('.elementor-widget-theme-post-featured-image');
-    if (imgWidget) {
-      img = imgWidget.querySelector('img');
+  cards.forEach(card => {
+    // === IMAGE COLUMN ===
+    // Find image: usually in .card-imoveis-item img, but fallback to first img
+    let imageEl = card.querySelector('.card-imoveis-item img');
+    if (!imageEl) {
+      imageEl = card.querySelector('img');
     }
 
-    // --- Second cell: Text Content ---
-    // We'll use a single block-level <div> to hold all text parts in sequence
-    const contentDiv = document.createElement('div');
-
-    // Status (Lançamento, Obras iniciadas, etc)
-    const status = card.querySelector('.status-da-obra-card-imoveis .elementor-post-info__terms-list-item');
-    if (status && status.textContent.trim()) {
-      const statusDiv = document.createElement('div');
-      statusDiv.textContent = status.textContent.trim();
-      statusDiv.style.fontWeight = 'bold';
-      contentDiv.appendChild(statusDiv);
-    }
-
-    // Title with optional link (Sensia Jardim, etc.)
-    const titleLinkLi = card.querySelector('.elementor-repeater-item-1315aa1');
-    let titleText = '';
-    let titleLink = null;
-    if (titleLinkLi) {
-      const titleA = titleLinkLi.querySelector('a');
-      if (titleA) {
-        // Remove icon if any
-        const icon = titleA.querySelector('.elementor-icon-list-icon');
-        if (icon) icon.remove();
-        // Use the existing anchor element; keep its href and text
-        titleLink = titleA;
-      } else {
-        // Fallback, just use text
-        const textSpan = titleLinkLi.querySelector('.elementor-post-info__item');
-        if (textSpan && textSpan.textContent.trim()) {
-          titleText = textSpan.textContent.trim();
+    // === CONTENT COLUMN ===
+    // Find the card-imoveis-dados section
+    let contentBlock = card.querySelector('.card-imoveis-dados');
+    let contentCell;
+    if (contentBlock) {
+      // Use only the main content inner, not the outer padding
+      let inner = contentBlock.querySelector('.e-con-inner');
+      contentCell = inner ? inner : contentBlock;
+    } else {
+      // fallback: just use the card minus the image, if possible
+      // (robust for future layout changes)
+      contentCell = document.createElement('div');
+      Array.from(card.children).forEach(child => {
+        if (!child.contains(imageEl)) {
+          contentCell.appendChild(child.cloneNode(true));
         }
-      }
-    }
-    if (titleLink) {
-      // Put title in bold
-      const strong = document.createElement('strong');
-      strong.appendChild(titleLink);
-      contentDiv.appendChild(strong);
-    } else if (titleText) {
-      const strong = document.createElement('strong');
-      strong.textContent = titleText;
-      contentDiv.appendChild(strong);
+      });
     }
 
-    // Location (Maringá | Paraná | PR)
-    const loc = card.querySelector('.elementor-repeater-item-c4a5a20 .elementor-post-info__terms-list-item');
-    if (loc && loc.textContent.trim()) {
-      const locDiv = document.createElement('div');
-      locDiv.textContent = loc.textContent.trim();
-      contentDiv.appendChild(locDiv);
-    }
-
-    // Bulleted feature list: under the green area, after divider
-    // Get the feature list (all li in .elementor-element-c9e3915)
-    const featureLis = card.querySelectorAll('.elementor-element-c9e3915 .elementor-post-info > li');
-    featureLis.forEach(li => {
-      const feature = li.querySelector('.elementor-post-info__terms-list-item');
-      if (feature && feature.textContent.trim()) {
-        // Each feature as a <div>
-        const featDiv = document.createElement('div');
-        featDiv.textContent = feature.textContent.trim();
-        contentDiv.appendChild(featDiv);
-      }
-    });
-
-    return [img, contentDiv];
+    // Add one row (image, content cell)
+    rows.push([imageEl, contentCell]);
   });
 
-  // Assemble the final table: header + all card rows
-  const tableArr = [headerRow, ...rows];
-  const table = WebImporter.DOMUtils.createTable(tableArr, document);
-  element.replaceWith(table);
+  // Create the table and replace
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
 }

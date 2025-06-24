@@ -1,45 +1,45 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Locate the grid containing the cards
-  const grid = element.querySelector('.elementor-loop-container');
-  if (!grid) return;
-  // Get all card items
-  const cardNodes = grid.querySelectorAll('[data-elementor-type="loop-item"]');
-  const rows = [["Cards (cards49)"]];
-  cardNodes.forEach((card) => {
-    // --- IMAGE CELL ---
-    let imgCell = null;
-    const imgWidget = card.querySelector('.elementor-widget-theme-post-featured-image');
-    if (imgWidget) {
-      const img = imgWidget.querySelector('img');
-      if (img) {
-        imgCell = img;
-      }
+  // Locate the cards container (loop-grid/post widget)
+  const loopContainer = element.querySelector('.elementor-loop-container');
+  if (!loopContainer) return;
+
+  // Find all direct child cards
+  const cardNodes = Array.from(loopContainer.querySelectorAll(':scope > div[data-elementor-type="loop-item"]'));
+
+  const rows = [
+    ['Cards (cards49)']
+  ];
+
+  cardNodes.forEach(card => {
+    // IMAGE CELL: Look for .card-imoveis-item then the first <img> inside
+    let imageCell = null;
+    const imageBox = card.querySelector('.card-imoveis-item');
+    if (imageBox) {
+      const img = imageBox.querySelector('img');
+      if (img) imageCell = img;
     }
-    // --- TEXT CELL ---
+    // Fallback: any <img> directly under the card
+    if (!imageCell) {
+      const img = card.querySelector('img');
+      if (img) imageCell = img;
+    }
+
+    // TEXT CELL: Use the .card-imoveis-dados .e-con-inner block if present, else .card-imoveis-dados itself
     let textCell = null;
-    // The info panel has all the textual info nicely grouped
-    const infoPanel = card.querySelector('.card-imoveis-dados');
-    if (infoPanel) {
-      textCell = infoPanel;
-    } else {
-      // fallback: group all widgets except the image widget
-      const fallback = document.createElement('div');
-      Array.from(card.children).forEach((child) => {
-        if (!imgWidget || !imgWidget.contains(child)) {
-          fallback.appendChild(child);
-        }
-      });
-      textCell = fallback.childNodes.length > 0 ? fallback : '';
+    const dados = card.querySelector('.card-imoveis-dados');
+    if (dados) {
+      const inner = dados.querySelector('.e-con-inner');
+      textCell = inner ? inner : dados;
     }
-    // Only add rows with both columns present
-    if (imgCell && textCell) {
-      rows.push([imgCell, textCell]);
-    }
+
+    // If for some reason no image or text, provide a placeholder so the row isn't empty
+    rows.push([
+      imageCell || document.createTextNode(''),
+      textCell || document.createTextNode('')
+    ]);
   });
-  // Only create table if there are rows to show
-  if (rows.length > 1) {
-    const block = WebImporter.DOMUtils.createTable(rows, document);
-    element.replaceWith(block);
-  }
+
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }

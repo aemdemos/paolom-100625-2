@@ -1,55 +1,44 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Compose the Hero block as a table: 1 col, 3 rows (header, bg, content)
-  // Header row must be exactly 'Hero'
+  // Compose header row, matching the example exactly
+  const headerRow = ['Hero'];
+  // Compose background image row - no image in this HTML block
+  const backgroundRow = [''];
 
-  // Determine the most likely container with actual content (not just spacing)
-  // Prefer the first container with a heading, or .e-con-inner for mobile
-  let mainContentContainer = element.querySelector('.e-con-inner');
-  if (!mainContentContainer) {
-    // find first child div with a heading (desktop)
-    mainContentContainer = Array.from(element.querySelectorAll(':scope > div')).find(div => div.querySelector('h1, h2, h3, h4, h5, h6'));
-  }
-  if (!mainContentContainer) {
-    // fallback to whole element
-    mainContentContainer = element;
-  }
-
-  // The content cell should include all headings, paragraphs, and CTA's in order
-  // Get all headings (h1-h6), paragraphs (p), and anchor buttons in this container, in order
-  const contentNodes = [];
-  // We want to retain order, so query for all direct and indirect children that are h1-h6, p, or a
-  // But we only want those that are actually visible content, not wrappers
-  const contentSelectors = 'h1, h2, h3, h4, h5, h6, p, a.elementor-button, a.elementor-button-link';
-  // Use TreeWalker to keep document order and avoid wrappers
-  const walker = document.createTreeWalker(mainContentContainer, NodeFilter.SHOW_ELEMENT, {
-    acceptNode(node) {
-      if (node.matches(contentSelectors)) {
-        // Only accept nodes with non-empty text or children
-        if (node.textContent && node.textContent.trim() !== '') return NodeFilter.FILTER_ACCEPT;
-      }
-      return NodeFilter.FILTER_SKIP;
+  // Find the content container (the one with heading, text, cta)
+  // Prefer the deepest div containing a heading
+  let contentRoot = null;
+  const candidates = Array.from(element.querySelectorAll('div'));
+  for (const div of candidates) {
+    if (div.querySelector('h1, h2, h3, h4, h5, h6')) {
+      contentRoot = div;
+      break;
     }
+  }
+  if (!contentRoot) contentRoot = element;
+
+  // Collect all direct content elements (headings, paragraphs, buttons) in DOM order
+  const contentParts = [];
+  // Use all headings (in DOM order)
+  contentRoot.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach(h => contentParts.push(h));
+  // Use all paragraphs (in DOM order)
+  contentRoot.querySelectorAll('p').forEach(p => contentParts.push(p));
+  // Add all CTA links that are not already included due to previous selection
+  contentRoot.querySelectorAll('a').forEach(a => {
+    if (!contentParts.includes(a)) contentParts.push(a);
   });
-  let node;
-  while((node = walker.nextNode())) {
-    contentNodes.push(node);
-  }
 
-  // If nothing found, fallback to any non-empty text in mainContentContainer
-  if (contentNodes.length === 0 && mainContentContainer.textContent && mainContentContainer.textContent.trim() !== '') {
-    const span = document.createElement('span');
-    span.textContent = mainContentContainer.textContent.trim();
-    contentNodes.push(span);
-  }
+  // Filter only those that are children or descendants (avoid duplicates)
+  // (They are already descendants, just avoid potential duplication)
+  // If no elements found, fallback to all textContent
+  const contentRow = [contentParts.length ? contentParts : contentRoot.textContent.trim()];
 
-  // Build the table rows
-  const rows = [
-    ['Hero'],
-    [''],
-    [contentNodes]
+  // Compose the table as per the example: header, background, content
+  const cells = [
+    headerRow,
+    backgroundRow,
+    contentRow
   ];
-
-  const table = WebImporter.DOMUtils.createTable(rows, document);
+  const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

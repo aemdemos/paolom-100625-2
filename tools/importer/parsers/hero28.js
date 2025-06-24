@@ -1,28 +1,43 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Build the Hero block table as per spec: header, background (empty), content
-  const cells = [];
-  // Header as in the example
-  cells.push(['Hero']);
-  // Background image cell (empty, none in provided HTML)
-  cells.push(['']);
-  // Content cell
+  // Table header, must match example: 'Hero'
+  const headerRow = ['Hero'];
+
+  // Second row: background image (not present in this HTML) - keep empty string
+  const bgRow = [''];
+
+  // Third row: Heading, Subheading (paragraph), CTA
+  // Find the heading element
+  const heading = element.querySelector('.elementor-widget-heading .elementor-heading-title');
+  // Find the subheading (paragraph)
+  const subheading = element.querySelector('.elementor-widget-text-editor p');
+  // Find CTA: look for visible button (not inside a hidden parent)
+  const buttonWidgets = element.querySelectorAll('.elementor-widget-button');
+  const ctas = [];
+  buttonWidgets.forEach(widget => {
+    // If the widget has any 'elementor-hidden-' class, skip
+    if (![...widget.classList].some(cls => cls.startsWith('elementor-hidden'))) {
+      const a = widget.querySelector('a');
+      if (a) ctas.push(a);
+    }
+  });
+
+  // Collect all non-null presentational elements in order
   const content = [];
-
-  // Find heading (prefer h1-h3), use first found
-  const heading = element.querySelector('h1, h2, h3, h4, h5, h6');
   if (heading) content.push(heading);
+  if (subheading) content.push(subheading);
+  if (ctas.length > 0) content.push(...ctas);
 
-  // Find subheading/paragraph (first <p>)
-  const paragraph = element.querySelector('p');
-  if (paragraph) content.push(paragraph);
+  // Even if content is empty, we need the row for structure
+  const infoRow = [content.length > 0 ? content : ''];
 
-  // Find the first visible CTA link (a with href not '#'), if any
-  const ctaButton = Array.from(element.querySelectorAll('a.elementor-button')).find(a => a.getAttribute('href') && a.getAttribute('href') !== '#');
-  if (ctaButton) content.push(ctaButton);
+  // Build table
+  const table = WebImporter.DOMUtils.createTable([
+    headerRow,
+    bgRow,
+    infoRow
+  ], document);
 
-  cells.push([content]);
-
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Replace original element with just the table
   element.replaceWith(table);
 }

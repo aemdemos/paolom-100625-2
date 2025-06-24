@@ -1,42 +1,33 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper to get all direct child containers (columns)
-  function getColumnGroups(root) {
-    return Array.from(root.children).filter(
-      (child) => child.classList && child.classList.contains('e-con')
-    );
-  }
-  // Helper to extract a block (1-5) content as an array of its widgets
-  function extractBlockContent(col) {
-    const widgets = col.querySelectorAll('.elementor-widget-container');
-    const nodes = [];
-    widgets.forEach(widget => {
-      Array.from(widget.childNodes).forEach(node => {
-        if (node.nodeType === Node.ELEMENT_NODE && node.textContent.trim()) nodes.push(node);
-        else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) nodes.push(node);
-      });
-    });
-    return nodes;
+  // The block header row, as in the example
+  const headerRow = ['Columns (columns38)'];
+
+  // Helper: for a column container, collect meaningful widgets only
+  function extractCellContent(colContainer) {
+    // Only take direct widget containers with content
+    const widgetContainers = Array.from(colContainer.querySelectorAll(':scope .elementor-widget-container'));
+    const meaningful = widgetContainers.filter(w => w.textContent.trim().length > 0 || w.querySelector('img,svg,iframe,video'));
+    if (meaningful.length === 0) return '';
+    return meaningful.length === 1 ? meaningful[0] : meaningful;
   }
 
-  // Gather all top-level blocks/columns
-  const columns = getColumnGroups(element); // 5 top-level blocks
-  // Defensive: Only use columns if we have at least 5
-  if (columns.length < 5) return;
-  // Group blocks into first cell: blocks 1-3, second cell: blocks 4-5
-  const col1 = [];
-  for (let i = 0; i < 3; i++) {
-    col1.push(...extractBlockContent(columns[i]));
+  // Find all direct e-con container children (these are the visual columns)
+  const mainCons = Array.from(element.children).filter(div => div.classList.contains('e-con'));
+
+  // Defensive fallback: if less than 5 columns, just put all in a single row
+  if (mainCons.length < 5) {
+    const singleRow = mainCons.map(extractCellContent);
+    const cells = [headerRow, singleRow];
+    const table = WebImporter.DOMUtils.createTable(cells, document);
+    element.replaceWith(table);
+    return;
   }
-  const col2 = [];
-  for (let i = 3; i < 5; i++) {
-    col2.push(...extractBlockContent(columns[i]));
-  }
-  // Compose table
-  const cells = [
-    ['Columns (columns38)'],
-    [col1, col2]
-  ];
+
+  // Build exactly as example: first row: 3 columns, second row: 2 columns
+  const firstRow = mainCons.slice(0, 3).map(extractCellContent);
+  const secondRow = mainCons.slice(3, 5).map(extractCellContent);
+  const cells = [headerRow, firstRow, secondRow];
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

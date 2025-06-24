@@ -1,38 +1,38 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Always create a single-column header row as in the example
   const headerRow = ['Cards (cards19)'];
-  const rows = [headerRow];
 
-  // Find the card grid container (allow flexible matching)
+  // Find the container holding the cards
   const grid = element.querySelector('.elementor-loop-container');
   if (!grid) return;
 
-  // Get all card nodes in the grid
-  const cardNodes = Array.from(grid.children).filter(child => child.hasAttribute('data-elementor-type') && child.getAttribute('data-elementor-type') === 'loop-item');
+  // Select all card elements (should be robust for multiple cards)
+  const cardNodes = grid.querySelectorAll('[data-elementor-type="loop-item"]');
+  if (!cardNodes.length) return;
 
+  const rows = [headerRow];
   cardNodes.forEach(card => {
-    // First cell: image (reference the <img> only, not a clone)
-    const img = card.querySelector('img');
-    let imgCell = img ? img : '';
+    // First column: card image (first image found in the card)
+    let imgEl = card.querySelector('img');
 
-    // Second cell: all card content except image, but keep the info block as a single reference
-    let infoBlock = card.querySelector('.card-imoveis-dados');
-    let infoCell = infoBlock ? infoBlock : '';
-
-    rows.push([imgCell, infoCell]);
-  });
-
-  if (rows.length > 1) {
-    const table = WebImporter.DOMUtils.createTable(rows, document);
-    // Set correct header colspan if needed
-    const tr = table.querySelector('tr');
-    if (tr && tr.children.length > 1) {
-      tr.children[0].setAttribute('colspan', tr.children.length);
-      while (tr.children.length > 1) {
-        tr.removeChild(tr.children[1]);
+    // Second column: all relevant text content from card
+    // Use the .card-imoveis-dados .e-con-inner block if present
+    let textSource = card.querySelector('.card-imoveis-dados .e-con-inner') ||
+                     card.querySelector('.card-imoveis-dados') ||
+                     card;
+    // Gather all non-empty element children
+    let textParts = [];
+    Array.from(textSource.children).forEach(child => {
+      if (child.textContent && child.textContent.trim().length > 0) {
+        textParts.push(child);
       }
+    });
+    // Fallback: if no non-empty children, use the textSource itself
+    if (textParts.length === 0) {
+      textParts = [textSource];
     }
-    element.replaceWith(table);
-  }
+    rows.push([imgEl || '', textParts]);
+  });
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }
