@@ -1,40 +1,67 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Build header row as in instructions
-  const rows = [['Accordion (accordion25)']];
-  // Select all accordion items: .e-loop-item
-  const items = element.querySelectorAll('.e-loop-item');
-  items.forEach((item) => {
-    // Extract year and month (from ul.elementor-post-info)
-    let year = '', month = '';
-    const infoItems = item.querySelectorAll('ul.elementor-post-info .elementor-post-info__terms-list-item');
-    if (infoItems.length > 0) {
-      year = infoItems[0].textContent.trim();
+  // Accordion block header row
+  const headerRow = ['Accordion (accordion25)'];
+
+  // Find the loop container of accordion items
+  const loopContainer = element.querySelector('.elementor-loop-container');
+  if (!loopContainer) return;
+
+  // Each loop item represents an accordion entry
+  const items = Array.from(loopContainer.querySelectorAll('div[data-elementor-type="loop-item"]'));
+  const rows = [];
+  items.forEach(item => {
+    // Title extraction: get the year/month and title link
+    const postInfoEl = item.querySelector('.elementor-widget-post-info');
+    let dateString = '';
+    if (postInfoEl) {
+      const terms = postInfoEl.querySelectorAll('.elementor-post-info__terms-list-item');
+      if (terms.length >= 2) {
+        dateString = `${terms[0].textContent.trim()} ${terms[1].textContent.trim()}`;
+      } else if (terms.length === 1) {
+        dateString = terms[0].textContent.trim();
+      }
     }
-    if (infoItems.length > 1) {
-      month = infoItems[1].textContent.trim();
+
+    // Title link
+    let titleLink = null;
+    const titleHeading = item.querySelector('.elementor-widget-theme-post-title .elementor-heading-title');
+    if (titleHeading && titleHeading.querySelector('a')) {
+      titleLink = titleHeading.querySelector('a');
     }
-    // Title cell = e.g. '2024 Novembro' (or just whatever is present)
-    const titleCell = `${year}${month ? ' ' + month : ''}`;
-    // Content cell: post title + buttons (existing elements only!)
-    const contentElements = [];
-    // Get h3 (title with link)
-    const h3 = item.querySelector('h3.elementor-heading-title');
-    if (h3) contentElements.push(h3);
-    // Get all buttons for this item
-    const buttons = Array.from(item.querySelectorAll('a.elementor-button-link'));
-    if (buttons.length > 0) {
-      // Place buttons in a container div with spacing
-      const btnContainer = document.createElement('div');
-      btnContainer.style.display = 'flex';
-      btnContainer.style.gap = '1em';
-      buttons.forEach(btn => btnContainer.appendChild(btn));
-      contentElements.push(btnContainer);
+
+    // Compose the title cell using existing document elements, not clones
+    const titleCellFragment = document.createDocumentFragment();
+    if (dateString) {
+      const strong = document.createElement('strong');
+      strong.textContent = dateString;
+      titleCellFragment.appendChild(strong);
+      titleCellFragment.appendChild(document.createTextNode(' '));
     }
-    // Add the row: [titleCell, contentElements]
-    rows.push([titleCell, contentElements]);
+    if (titleLink) {
+      titleCellFragment.appendChild(titleLink);
+    } else if (titleHeading) {
+      // fallback: use heading as is
+      titleCellFragment.appendChild(titleHeading);
+    }
+
+    // Content cell: both action buttons, keep exact semantic/formatting, reference existing elements
+    // Find all button links inside the item
+    const buttonLinks = Array.from(item.querySelectorAll('.elementor-widget-button .elementor-button'));
+    const contentCellFragment = document.createDocumentFragment();
+    buttonLinks.forEach((btn, i) => {
+      contentCellFragment.appendChild(btn);
+      if (i < buttonLinks.length - 1) {
+        contentCellFragment.appendChild(document.createTextNode(' ')); // space between buttons
+      }
+    });
+
+    rows.push([
+      titleCellFragment.childNodes.length ? Array.from(titleCellFragment.childNodes) : '',
+      contentCellFragment.childNodes.length ? Array.from(contentCellFragment.childNodes) : ''
+    ]);
   });
-  // Build the block and replace
-  const table = WebImporter.DOMUtils.createTable(rows, document);
+
+  const table = WebImporter.DOMUtils.createTable([headerRow, ...rows], document);
   element.replaceWith(table);
 }

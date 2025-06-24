@@ -1,78 +1,78 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // 1. Header row for the block
+  // The block name, exactly matching the example
   const headerRow = ['Video (video42)'];
 
-  // 2. Find the main widget (video) and extract all relevant content
-  const widget = element.querySelector('[data-widget_type="video.default"]');
-  let videoUrl = '';
-  let posterImg = null;
+  // Locate the elementor-widget-video container
+  const videoWidget = element.querySelector('.elementor-widget-video');
 
-  // Fallback: collect block text content
-  const blockTextNodes = [];
-  // Gather all element text nodes that are not hidden (for edge cases)
-  element.querySelectorAll('*').forEach((el) => {
-    if (el.childNodes.length === 1 && el.childNodes[0].nodeType === Node.TEXT_NODE) {
-      const text = el.textContent.trim();
-      if (text && !blockTextNodes.includes(text)) {
-        blockTextNodes.push(text);
-      }
-    }
-  });
-  // Also check for direct text nodes on the main element
-  Array.from(element.childNodes).forEach((node) => {
-    if (node.nodeType === Node.TEXT_NODE) {
-      const text = node.textContent.trim();
-      if (text && !blockTextNodes.includes(text)) {
-        blockTextNodes.push(text);
-      }
-    }
-  });
+  // Prepare poster image, video link, and any visible text content
+  let posterImgEl = null;
+  let videoLinkEl = null;
+  let overlayText = [];
 
-  if (widget) {
-    // 2a. Extract video URL from data-settings attribute
-    const settingsAttr = widget.getAttribute('data-settings');
-    if (settingsAttr) {
-      let settingsStr = settingsAttr;
-      if (settingsStr.includes('&quot;')) settingsStr = settingsStr.replace(/&quot;/g, '"');
+  if (videoWidget) {
+    // Extract settings for video URL and poster image
+    const settings = videoWidget.getAttribute('data-settings');
+    if (settings) {
       try {
-        const settings = JSON.parse(settingsStr);
-        if (settings.youtube_url) videoUrl = settings.youtube_url;
-        if (settings.image_overlay && settings.image_overlay.url) {
-          posterImg = element.ownerDocument.createElement('img');
-          posterImg.src = settings.image_overlay.url;
-          posterImg.alt = settings.image_overlay.alt || '';
+        const settingsObj = JSON.parse(settings);
+        // Video URL
+        if (settingsObj.youtube_url) {
+          videoLinkEl = document.createElement('a');
+          videoLinkEl.href = settingsObj.youtube_url;
+          videoLinkEl.textContent = settingsObj.youtube_url;
         }
-      } catch (e) {
-        // If JSON parse fails, skip
-      }
+        // Poster image
+        if (settingsObj.image_overlay && settingsObj.image_overlay.url) {
+          posterImgEl = document.createElement('img');
+          posterImgEl.src = settingsObj.image_overlay.url;
+          posterImgEl.alt = '';
+        }
+      } catch(e) { /* fail silently */ }
+    }
+    // Find overlay text in the widget (for accessibility or titles)
+    const overlay = videoWidget.querySelector('.elementor-custom-embed-image-overlay');
+    if (overlay) {
+      // Gather text nodes or text content from children (e.g. headings, divs)
+      // Ignore play button
+      overlay.childNodes.forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+          overlayText.push(document.createTextNode(node.textContent.trim()));
+        } else if (node.nodeType === Node.ELEMENT_NODE && node.className !== 'elementor-custom-embed-play') {
+          const text = node.textContent.trim();
+          if (text) {
+            overlayText.push(document.createTextNode(text));
+          }
+        }
+      });
     }
   }
 
-  // 3. Compose the table cell, including all poster images, video links, and text content
+  // Compose the cell content: poster image, overlay text, and link (in order)
   const cellContent = [];
-  if (posterImg) cellContent.push(posterImg);
-  if (videoUrl) {
-    if (cellContent.length) cellContent.push(document.createElement('br'));
-    const link = document.createElement('a');
-    link.href = videoUrl;
-    link.textContent = videoUrl;
-    cellContent.push(link);
+  if (posterImgEl) cellContent.push(posterImgEl);
+  if (overlayText.length) {
+    if (posterImgEl) cellContent.push(document.createElement('br'));
+    overlayText.forEach(t => { cellContent.push(t); cellContent.push(document.createElement('br')); });
   }
-  // Add any additional text nodes that are not already represented
-  if (blockTextNodes.length) {
+  if (videoLinkEl) {
     if (cellContent.length) cellContent.push(document.createElement('br'));
-    blockTextNodes.forEach(txt => {
-      const p = document.createElement('p');
-      p.textContent = txt;
-      cellContent.push(p);
-    });
+    cellContent.push(videoLinkEl);
   }
 
-  // 4. Create and insert the table block
+  // If there's no poster image, overlay text, or link, fallback to including all content
+  if (cellContent.length === 0) {
+    // Reference all child elements, preserving structure and text
+    cellContent.push(...Array.from(element.childNodes));
+  }
+
+  // Build the table: header and content row
   const table = WebImporter.DOMUtils.createTable([
     headerRow,
-    [cellContent.length ? cellContent : '']
+    [cellContent],
   ], document);
+
+  // Replace the original element
   element.replaceWith(table);
 }

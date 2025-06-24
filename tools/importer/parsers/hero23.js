@@ -1,53 +1,56 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // This block should precisely match the example:
-  // 3 rows, 1 column. Row 1: 'Hero' (header). Row 2: (empty). Row 3: all content.
-  // There is NO Section Metadata in the example, so do not add it or use <hr>.
+  // 1. Find main heading
+  const heading = element.querySelector('h1, h2, h3, h4, h5, h6, .elementor-heading-title');
 
-  // Find the inner content area that contains all the text, headings, images, and CTA
-  // In the given HTML, that's the second level container (not the outermost) with actual child widgets.
-  // We'll look for the first non-empty div within element's direct children, and use all its children as block content.
-  let contentContainer = null;
-  const firstLevelDivs = Array.from(element.querySelectorAll(':scope > div'));
-  for (const div of firstLevelDivs) {
-    // If this div contains any heading, paragraph, or button, we consider it the main content
-    if (div.querySelector('h1, h2, h3, h4, h5, h6, p, a')) {
-      contentContainer = div;
-      break;
-    }
-  }
-  // Fallback: just use the first direct child div
-  if (!contentContainer && firstLevelDivs.length > 0) {
-    contentContainer = firstLevelDivs[0];
-  }
-  // Fallback: use the element itself
-  if (!contentContainer) {
-    contentContainer = element;
-  }
+  // 2. Find .e-con-inner that contains the instruction icon+text pairs
+  const instructionInner = element.querySelector('.e-con-inner');
 
-  // Collect all the direct children (divs, widgets, etc.)
-  const blockContent = Array.from(contentContainer.children).filter(node => {
-    // Ignore empty containers
-    if (node.tagName === 'DIV' && node.textContent.trim() === '' && !node.querySelector('img')) return false;
-    return true;
-  });
+  // 3. Find all intro paragraphs (text not inside instructionInner)
+  const allTextPs = Array.from(element.querySelectorAll('.elementor-widget-text-editor .elementor-widget-container > p'));
+  let introParagraphs = allTextPs.filter(p => !instructionInner || !instructionInner.contains(p));
 
-  // If the contentContainer has no children (e.g. everything is inside deeper divs), fallback to all descendants
-  let finalContent = blockContent;
-  if (finalContent.length === 0) {
-    finalContent = Array.from(contentContainer.querySelectorAll(':scope > *'));
-  }
-  // Final fallback: use the contentContainer itself if it's a widget with direct content
-  if (finalContent.length === 0) {
-    finalContent = [contentContainer];
+  // 4. For instruction pairs, group img and its paragraph as a div, in order
+  let instructionPairs = [];
+  if (instructionInner) {
+    // Each pair is in a direct child .e-con-full
+    const rows = Array.from(instructionInner.querySelectorAll(':scope > .e-con-full'));
+    rows.forEach(row => {
+      const img = row.querySelector('img');
+      const p = row.querySelector('.elementor-widget-text-editor p');
+      if (img && p) {
+        const div = document.createElement('div');
+        div.appendChild(img);
+        div.appendChild(p);
+        instructionPairs.push(div);
+      } else if (img) {
+        instructionPairs.push(img);
+      } else if (p) {
+        instructionPairs.push(p);
+      }
+    });
   }
 
-  // Compose the table as per the markdown example
-  const cells = [
+  // 5. Find CTA button
+  const button = element.querySelector('.elementor-widget-button a');
+  let buttonP = null;
+  if (button) {
+    buttonP = document.createElement('p');
+    buttonP.appendChild(button);
+  }
+
+  // Compose content: heading, intro paragraphs, instruction pairs, button
+  const mainContent = [];
+  if (heading) mainContent.push(heading);
+  introParagraphs.forEach(p => mainContent.push(p));
+  instructionPairs.forEach(div => mainContent.push(div));
+  if (buttonP) mainContent.push(buttonP);
+
+  // Build table
+  const table = WebImporter.DOMUtils.createTable([
     ['Hero'],
     [''],
-    [finalContent]
-  ];
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+    [mainContent]
+  ], document);
   element.replaceWith(table);
 }

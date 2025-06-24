@@ -1,54 +1,40 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header as described in the block information
+  // Header row as in the example
   const headerRow = ['Columns (columns48)'];
-
-  // Find the two main columns by looking for .e-con-inner, then its children
+  // Get direct children representing columns
+  // In this structure, the first column is the address/label/left, the second is the right column (the list)
   let leftCol = null;
   let rightCol = null;
-  const inner = element.querySelector(':scope > .e-con-inner');
-  if (inner) {
-    const containers = inner.querySelectorAll(':scope > div');
-    if (containers.length >= 2) {
-      leftCol = containers[0];
-      rightCol = containers[1];
-    }
+  // Find columns by class
+  const firstCol = element.querySelector(
+    ':scope > .e-con-inner > .endereco-left-col'
+  );
+  leftCol = firstCol ? firstCol : null;
+  // The right column is the other direct child (but not .endereco-left-col)
+  const allCols = Array.from(element.querySelectorAll(':scope > .e-con-inner > div'));
+  rightCol = allCols.find((col) => col !== leftCol);
+
+  // Defensive: fallback if structure changes
+  if (!leftCol && allCols.length > 0) leftCol = allCols[0];
+  if (!rightCol && allCols.length > 1) rightCol = allCols[1];
+
+  // For each column, grab the content container for resilience
+  function getColumnContent(col) {
+    if (!col) return document.createElement('div');
+    const inner = col.querySelector(':scope > .e-con-inner');
+    if (inner) return inner;
+    return col;
   }
 
-  // Defensive fallback: if not found, fallback to direct children
-  if (!leftCol || !rightCol) {
-    const fallbackChildren = element.querySelectorAll(':scope > div');
-    if (fallbackChildren.length >= 2) {
-      leftCol = fallbackChildren[0];
-      rightCol = fallbackChildren[1];
-    }
-  }
+  const leftContent = getColumnContent(leftCol);
+  const rightContent = getColumnContent(rightCol);
 
-  // LEFT COLUMN: reference all content of leftCol
-  let leftCellContent = [];
-  if (leftCol) {
-    // Pick all direct children of leftCol's .e-con-inner (if present), else direct children
-    const leftInner = leftCol.querySelector('.e-con-inner');
-    if (leftInner) {
-      leftCellContent = Array.from(leftInner.children);
-    } else {
-      leftCellContent = Array.from(leftCol.children);
-    }
-  }
-
-  // RIGHT COLUMN: reference all content of rightCol
-  let rightCellContent = [];
-  if (rightCol) {
-    // Sometimes there is no wrapper, just widgets
-    rightCellContent = Array.from(rightCol.children);
-  }
-
-  // Put all contents as arrays (so that createTable appends them all to the cell)
-  const tableArr = [
+  // Compose table rows
+  const cells = [
     headerRow,
-    [leftCellContent, rightCellContent],
+    [leftContent, rightContent],
   ];
-
-  const block = WebImporter.DOMUtils.createTable(tableArr, document);
-  element.replaceWith(block);
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(table);
 }

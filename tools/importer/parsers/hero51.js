@@ -1,44 +1,38 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // HERO block: 1 column, 3 rows: Header, Background image (optional), Content (heading, text, CTA)
+  // Prepare table rows for the Hero block as per example: 1 column, 3 rows
+  // Header row must be 'Hero' (no markdown, no tags)
+  const cells = [];
+  cells.push(['Hero']);
 
-  // 1. Header row
-  const headerRow = ['Hero'];
+  // Background image row: check for a background image (not present in this HTML), so just an empty cell
+  cells.push(['']);
 
-  // 2. Background image (optional); in this HTML, there is no img in the hero background.
-  // So, cell is empty (must be present as a row)
-  let backgroundImageCell = [''];
+  // Third row: grab heading, paragraphs, button (in order)
+  const content = [];
 
-  // 3. Content: get heading, paragraphs, CTA in order
-  const contentElements = [];
-
-  // Find the heading (INVESTIDORES)
-  const heading = element.querySelector('.elementor-widget-heading .elementor-heading-title');
-  if (heading) contentElements.push(heading);
-
-  // Find paragraphs (text-editor)
-  const textWidget = element.querySelector('.elementor-widget-text-editor .elementor-widget-container');
-  if (textWidget) {
-    // Append each direct paragraph
-    Array.from(textWidget.children).forEach(child => {
-      contentElements.push(child);
-    });
+  // Heading
+  const headingEl = element.querySelector('.elementor-widget-heading h1, .elementor-widget-heading h2, .elementor-widget-heading h3, .elementor-widget-heading h4, .elementor-widget-heading h5, .elementor-widget-heading h6');
+  if (headingEl) {
+    content.push(headingEl);
   }
 
-  // Find CTA button (if present)
-  const cta = element.querySelector('.elementor-widget-button a');
-  if (cta) {
-    contentElements.push(cta);
+  // Paragraphs
+  const textEditor = element.querySelector('.elementor-widget-text-editor .elementor-widget-container');
+  if (textEditor) {
+    const paragraphs = Array.from(textEditor.querySelectorAll('p'));
+    content.push(...paragraphs);
   }
 
-  // Ensure at least one content node is present to avoid an empty row (shouldn't occur for this block)
+  // Button (CTA)
+  const button = element.querySelector('.elementor-widget-button a');
+  if (button) {
+    content.push(button);
+  }
 
-  // Assemble table
-  const cells = [
-    headerRow,
-    backgroundImageCell,
-    [contentElements]
-  ];
+  cells.push([content]);
+
+  // Create the table and replace element
   const table = WebImporter.DOMUtils.createTable(cells, document);
   element.replaceWith(table);
 }

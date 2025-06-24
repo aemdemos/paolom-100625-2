@@ -1,88 +1,54 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Build header row as in example
-  const cells = [
-    ['Hero'],
-  ];
+  // Header row as in the example
+  const header = ['Hero'];
+  // Background row (blank)
+  const backgroundRow = [''];
 
-  // 2nd row: Background image (none present in element, leave empty as in the example)
-  cells.push(['']);
-
-  // 3rd row: All primary content (headings, forms, text, etc.)
-  // Get the innermost container that has all content
+  // Find the main content area (.e-con-inner or fallback to element)
   const inner = element.querySelector('.e-con-inner') || element;
 
-  // Get all direct children of .e-con-inner (handles headings, forms, etc.)
-  // Use all content for resilience
-  const contentBlocks = [];
-  
-  // Gather all immediate children that are not pure containers
-  inner.childNodes.forEach((node) => {
-    if (node.nodeType === Node.ELEMENT_NODE) {
-      // If this is a widget or container holding content, get their content
-      // If it's just a container, dive deeper
-      if (
-        node.classList.contains('elementor-widget-heading') ||
-        node.classList.contains('elementor-widget-formidable') ||
-        node.classList.contains('elementor-widget-container')
-      ) {
-        // For widgets, include their content container children
-        node.childNodes.forEach((n2) => {
-          if (n2.nodeType === Node.ELEMENT_NODE) {
-            contentBlocks.push(n2);
-          }
-        });
-      } else if (node.childNodes.length === 1 && node.firstChild.nodeType === Node.ELEMENT_NODE) {
-        // Probably a wrapper/container, dive deeper
-        contentBlocks.push(node.firstChild);
-      } else {
-        // otherwise, include the node
-        contentBlocks.push(node);
-      }
-    } else if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
-      // Include any non-empty text nodes
-      const span = document.createElement('span');
-      span.textContent = node.textContent.trim();
-      contentBlocks.push(span);
-    }
-  });
+  // ---
+  // Collect logo image, headline, and location (in the screenshot, all inside the dark overlay box)
 
-  // If we only pulled in wrappers, flatten further to get text/heading/etc. elements
-  function flattenContent(arr) {
-    const out = [];
-    arr.forEach(el => {
-      if (el.nodeType === Node.ELEMENT_NODE &&
-        (el.children.length === 1 && el.firstElementChild &&
-         (el.classList.contains('e-con') || el.classList.contains('e-child') || el.classList.contains('e-con-inner'))
-        )
-      ) {
-        // recurse deeper if typical wrapper
-        out.push(...flattenContent([el.firstElementChild]));
-      } else {
-        out.push(el);
-      }
-    });
-    return out;
+  // 1. Logo image
+  let logoImg = inner.querySelector('img');
+
+  // 2. Find all text blocks
+  // Get all <p> inside .elementor-widget-text-editor, skip empty ones
+  let intro = null, title = null;
+  const allTextPs = inner.querySelectorAll('.elementor-widget-text-editor p');
+  for (const p of allTextPs) {
+    const txt = p.textContent.trim();
+    if (txt === 'Breve Lançamento' && !intro) {
+      intro = p;
+    } else if (txt && txt !== 'Breve Lançamento' && !title) {
+      // The marketing title
+      title = p;
+    }
   }
-  const flatContent = flattenContent(contentBlocks);
 
-  // Remove empty divs/spans
-  const finalContent = flatContent.filter(el => {
-    if (!el) return false;
-    if (el.nodeType !== Node.ELEMENT_NODE) return true;
-    if (
-      (el.tagName === 'DIV' || el.tagName === 'SPAN') &&
-      !el.textContent.trim() && el.children.length === 0
-    ) {
-      return false;
-    }
-    return true;
-  });
+  // 3. Find the location list (in screenshot, under the title, with location icon)
+  // Use the actual <ul> for semantic purposes
+  let locationUl = inner.querySelector('.elementor-widget-post-info ul');
 
-  // If nothing found, fallback to the whole inner content
-  cells.push([finalContent.length ? finalContent : [inner]]);
+  // Compose the content cell for row 3, in the screenshot order
+  const cellContent = [];
+  if (intro) cellContent.push(intro);
+  if (logoImg) cellContent.push(logoImg);
+  if (title) {
+    // Use a heading, matching the example's semantic meaning
+    const h1 = document.createElement('h1');
+    h1.textContent = title.textContent.trim();
+    cellContent.push(h1);
+  }
+  if (locationUl) cellContent.push(locationUl);
 
-  // Create table and replace in DOM
-  const table = WebImporter.DOMUtils.createTable(cells, document);
+  // Compose the table data
+  const contentRow = [cellContent.length ? cellContent : ''];
+  const rows = [header, backgroundRow, contentRow];
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+
+  // Replace the original element with the new table
   element.replaceWith(table);
 }

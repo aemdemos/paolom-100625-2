@@ -1,47 +1,33 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Helper: Get card containers
-  function getCardContainers(el) {
-    const loopGrid = el.querySelector('.elementor-loop-container.elementor-grid');
-    if (!loopGrid) return [];
-    return Array.from(loopGrid.querySelectorAll(':scope > .e-loop-item'));
-  }
+  // Find the grid container inside the block
+  const grid = element.querySelector('.elementor-loop-container.elementor-grid');
+  if (!grid) return;
 
-  // Helper: Get the card image
-  function getCardImage(card) {
-    const img = card.querySelector('.elementor-widget-theme-post-featured-image img');
-    return img || '';
-  }
+  // Get all direct child cards (loop items)
+  const cards = Array.from(grid.querySelectorAll(':scope > [data-elementor-type="loop-item"]'));
 
-  // Helper: Get the card content (text block)
-  function getCardContent(card) {
-    const dados = card.querySelector('.card-imoveis-dados');
-    if (dados) return dados;
-    const fallback = card.querySelector('.e-con-inner') || card;
-    return fallback;
-  }
+  // Table header
+  const rows = [['Cards (cards57)']];
 
-  const cards = getCardContainers(element);
-  // Prepare table rows: header row is a single cell, then card rows are arrays of 2 cells
-  const rows = [];
-  // Header row: single cell
-  rows.push(['Cards (cards57)']);
-  // Card rows: two cells (image, content)
-  for (const card of cards) {
-    rows.push([getCardImage(card), getCardContent(card)]);
-  }
+  // For each card
+  cards.forEach(card => {
+    // --- IMAGE COLUMN ---
+    // Find the .elementor-widget-theme-post-featured-image img in card
+    let img = card.querySelector('.elementor-widget-theme-post-featured-image img');
+    // Only use the image element itself, not its parent <a>
 
-  // Create the table
-  if (cards.length) {
-    const table = WebImporter.DOMUtils.createTable(rows, document);
+    // --- TEXT COLUMN ---
+    // Use the colored box with all info (class .card-imoveis-dados)
+    // This box includes headings, location, rooms info, etc. as in the screenshot
+    let textCol = card.querySelector('.card-imoveis-dados');
+    // If missing (shouldn't be), fallback to card
+    if (!textCol) textCol = card;
 
-    // Ensure the header row has a single <th> spanning two columns
-    // WebImporter.DOMUtils.createTable does not add colspan automatically
-    const th = table.querySelector('tr th');
-    if (th && cards.length) {
-      th.setAttribute('colspan', '2');
-    }
+    rows.push([img || '', textCol || '']);
+  });
 
-    element.replaceWith(table);
-  }
+  // Create and replace block table
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }

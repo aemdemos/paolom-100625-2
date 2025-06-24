@@ -1,44 +1,42 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header must exactly match the block/component name
+  // Header must match the example exactly:
   const headerRow = ['Cards (cards63)'];
-  const rows = [];
+  const rows = [headerRow];
 
-  // Locate the card grid container
-  const loopGrid = element.querySelector('.elementor-widget-loop-grid .elementor-loop-container');
-  if (!loopGrid) return;
-  
   // Each card is a [data-elementor-type="loop-item"]
-  const cardEls = loopGrid.querySelectorAll('[data-elementor-type="loop-item"]');
-  cardEls.forEach(cardEl => {
-    // IMAGE CELL: First image inside the card (ignore links, use <img> directly)
-    let imgEl = cardEl.querySelector('img');
-    if (!imgEl) imgEl = '';
-    
-    // TEXT CELL: rich text below image. The colored area .card-imoveis-dados contains all relevant text.
-    // We want to reference the existing element, not clone.
-    let textEl = cardEl.querySelector('.card-imoveis-dados');
-    if (textEl) {
-      // Remove visual-only inner containers
-      const dividers = textEl.querySelectorAll('.elementor-widget-divider');
-      dividers.forEach(div => div.remove());
-      // Remove empty elements (e.g., span with no content)
-      Array.from(textEl.querySelectorAll('span')).forEach(span => {
-        if(!span.textContent.trim() && span.children.length === 0) span.remove();
-      });
-    } else {
-      // Fallback: try to get all non-image content after the <img>
-      textEl = document.createElement('div');
-      let foundImg = false;
-      Array.from(cardEl.children).forEach(child => {
-        if (child.querySelector && child.querySelector('img')) foundImg = true;
-        if (foundImg && !child.querySelector('img')) textEl.appendChild(child);
-      });
+  const cardNodes = element.querySelectorAll('[data-elementor-type="loop-item"]');
+
+  cardNodes.forEach(card => {
+    // Get the image (first <img> inside a <a>)
+    let img = card.querySelector('img');
+
+    // Get the text block (the info area below the image)
+    // Usually .card-imoveis-dados
+    let textBlock = card.querySelector('.card-imoveis-dados');
+    // Fallback: try to find a colored box (info area)
+    if (!textBlock) {
+      textBlock = card.querySelector('[style*="background-color"]');
     }
-    rows.push([imgEl, textEl]);
+    // As a last resort, grab the deepest container in the card (should be info area)
+    if (!textBlock) {
+      const allContainers = card.querySelectorAll('[data-element_type="container"]');
+      if (allContainers.length) {
+        textBlock = allContainers[allContainers.length - 1];
+      }
+    }
+    // Defensive: If neither found, skip this card
+    if (!img && !textBlock) return;
+
+    rows.push([
+      img || '',
+      textBlock || ''
+    ]);
   });
 
-  // Compose the table: header row + one row per card ([image, text])
-  const table = WebImporter.DOMUtils.createTable([headerRow, ...rows], document);
+  // If no cards found, do not replace
+  if (rows.length === 1) return;
+  // Use createTable as specified, referencing elements (not HTML strings)
+  const table = WebImporter.DOMUtils.createTable(rows, document);
   element.replaceWith(table);
 }

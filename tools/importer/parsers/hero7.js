@@ -1,42 +1,43 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find direct child containers
-  const containers = Array.from(element.querySelectorAll(':scope > div'));
-  let imageEl = null;
-  let contentEls = [];
-
-  // There are two main containers: one for text/button, one for image
-  containers.forEach(cont => {
-    const img = cont.querySelector('img');
-    if (img && !imageEl) {
-      imageEl = img;
-    } else {
-      // This is the text/button container, gather its widget containers
-      const widgetContainers = Array.from(cont.querySelectorAll('.elementor-widget-container'));
-      contentEls.push(...widgetContainers);
-    }
-  });
-
-  // Compose content cell: preserve element order and spacing
-  const contentCell = [];
-  contentEls.forEach((el, idx) => {
-    contentCell.push(el);
-    // Add spacing (preserved visually) except after the last element
-    if (idx < contentEls.length - 1) {
-      contentCell.push(document.createElement('br'));
-    }
-  });
-
-  // Ensure the table has the correct header from the example
+  // Table header exactly as shown in the example
   const headerRow = ['Hero'];
-  // Background image row (even if empty)
-  const bgRow = [imageEl ? imageEl : ''];
-  // Content row (even if empty)
-  const contentRow = [contentCell.length > 0 ? contentCell : ''];
 
-  const rows = [headerRow, bgRow, contentRow];
-  const table = WebImporter.DOMUtils.createTable(rows, document);
+  // 1. Find background image (if present)
+  // It's in the second child container
+  let bgImage = '';
+  const containers = element.querySelectorAll(':scope > div');
+  if (containers.length > 1) {
+    const img = containers[1].querySelector('img');
+    if (img) bgImage = img;
+  }
 
-  // Replace the original element with the block table
+  // 2. Gather content: heading, paragraphs, CTA button
+  let contentElems = [];
+  if (containers.length > 0) {
+    const contentContainer = containers[0];
+
+    // Headings (could be h1-h6)
+    const heading = contentContainer.querySelector('h1, h2, h3, h4, h5, h6');
+    if (heading) contentElems.push(heading);
+
+    // Paragraphs
+    const paragraphs = contentContainer.querySelectorAll('p');
+    paragraphs.forEach(p => contentElems.push(p));
+
+    // CTA button (first anchor)
+    const cta = contentContainer.querySelector('a');
+    if (cta) contentElems.push(cta);
+  }
+
+  // 3. Build the table: header, bg image, then content
+  const cells = [
+    headerRow,
+    [bgImage],
+    [contentElems]
+  ];
+  const table = WebImporter.DOMUtils.createTable(cells, document);
+
+  // 4. Replace original element
   element.replaceWith(table);
 }
