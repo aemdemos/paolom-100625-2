@@ -933,11 +933,8 @@
   ],
   "blocks": [
     {
-      "name": "Hero",
+      "name": "unknown",
       "cluster": 1,
-      "source": "Hero",
-      "target": "Hero (hero1)",
-      "key": "hero1",
       "instances": [
         {
           "url": "https://meusensia.com.br/imovel/sensia-jardim/",
@@ -1203,11 +1200,8 @@
       ]
     },
     {
-      "name": "Table (striped & bordered)",
+      "name": "unknown",
       "cluster": 6,
-      "source": "Table (striped, bordered)",
-      "target": "Table (striped, bordered, tableStripedBordered6)",
-      "key": "tableStripedBordered6",
       "instances": [
         {
           "url": "https://meusensia.com.br/imoveis/pr/maringa/",
@@ -1977,11 +1971,11 @@
       ]
     },
     {
-      "name": "Cards",
+      "name": "Carousel",
       "cluster": 21,
-      "source": "Cards",
-      "target": "Cards (cards21)",
-      "key": "cards21",
+      "source": "Carousel",
+      "target": "Carousel (carousel21)",
+      "key": "carousel21",
       "instances": [
         {
           "url": "https://meusensia.com.br/imovel/sensia-jardim/",
@@ -2100,7 +2094,7 @@
       ]
     },
     {
-      "name": "Embed (video)",
+      "name": "unknown",
       "cluster": 22,
       "source": "Embed",
       "target": "Embed (embedVideo22)",
@@ -2388,11 +2382,11 @@
       ]
     },
     {
-      "name": "Cards",
+      "name": "Hero",
       "cluster": 30,
-      "source": "Cards",
-      "target": "Cards (cards30)",
-      "key": "cards30",
+      "source": "Hero",
+      "target": "Hero (hero30)",
+      "key": "hero30",
       "instances": [
         {
           "url": "https://meusensia.com.br/imovel/sensia-jardim/",
