@@ -17,24 +17,6 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-barra/",
-          "urlHash": "0fca230c1189e338cb970046bf07db976af0f735",
-          "uuid": "0fca230c-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/pr/maringa/",
           "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
           "uuid": "18d8c89d-00-c498d593a5bc97467d867eb87705c763456c87bd",
@@ -44,18 +26,6 @@
           "url": "https://meusensia.com.br/imoveis/page/3/",
           "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
           "uuid": "1ec52c4f-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -71,45 +41,9 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/am/manaus/",
           "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
           "uuid": "4569852c-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -119,39 +53,21 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
           "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
           "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
           "uuid": "6e9eff75-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-00-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
-          "xpath": "/html[1]/body[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/ce/",
           "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
           "uuid": "79fe2d47-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -173,21 +89,9 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/politica-de-privacidade/",
           "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
           "uuid": "9baaedd5-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/contato-via-whatsapp/",
-          "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-          "uuid": "9c2cd8a2-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -209,39 +113,15 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/ba/salvador/",
           "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
           "uuid": "ada658e7-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-fiusa-view/",
-          "urlHash": "b7be63161ca9c88c2316102e5f801540a9e696d7",
-          "uuid": "b7be6316-00-5f441624e1b629dbe51ec85c59d71ebffc61008c",
-          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/al/maceio/",
           "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
           "uuid": "bc23c7da-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -257,33 +137,15 @@
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/sp/",
           "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
           "uuid": "cdbbe609-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
           "url": "https://meusensia.com.br/conheca-a-sensia/",
           "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
           "uuid": "e563f5d9-00-c498d593a5bc97467d867eb87705c763456c87bd",
-          "xpath": "/html[1]/body[1]/section[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-00-c498d593a5bc97467d867eb87705c763456c87bd",
           "xpath": "/html[1]/body[1]/section[1]"
         },
         {
@@ -341,42 +203,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-barra/",
-          "urlHash": "0fca230c1189e338cb970046bf07db976af0f735",
-          "uuid": "0fca230c-03-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-barra/",
-          "urlHash": "0fca230c1189e338cb970046bf07db976af0f735",
-          "uuid": "0fca230c-02-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-17-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-19-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/pr/maringa/",
           "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
           "uuid": "18d8c89d-08-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -398,30 +224,6 @@
           "url": "https://meusensia.com.br/imoveis/page/3/",
           "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
           "uuid": "1ec52c4f-02-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-17-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-19-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
@@ -449,30 +251,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-10-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-09-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-17-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/am/manaus/",
           "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
           "uuid": "4569852c-08-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -482,54 +260,6 @@
           "url": "https://meusensia.com.br/imoveis/am/manaus/",
           "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
           "uuid": "4569852c-07-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-19-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-17-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-17-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-16-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-17-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
@@ -545,6 +275,18 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-03-6419c5482dba87d55497e10067ddb965e78fe885",
+          "xpath": "/html[1]/body[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
           "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
           "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
           "uuid": "6e9eff75-07-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -557,30 +299,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-06-9147325cf6c1b5e5656d8a231634a109a36b4bbc",
-          "xpath": "/html[1]/body[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-05-0fbbd74f14ea96fc1d7b9a077f262961ea246d78",
-          "xpath": "/html[1]/body[1]/div[1]/div[8]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-18-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-17-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/ce/",
           "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
           "uuid": "79fe2d47-03-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -590,30 +308,6 @@
           "url": "https://meusensia.com.br/imoveis/ce/",
           "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
           "uuid": "79fe2d47-02-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-19-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-19-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
@@ -653,18 +347,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-19-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-18-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/politica-de-privacidade/",
           "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
           "uuid": "9baaedd5-59-6e70765a003047818ea5700b557b8d01b43078df",
@@ -675,18 +357,6 @@
           "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
           "uuid": "9baaedd5-58-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/contato-via-whatsapp/",
-          "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-          "uuid": "9c2cd8a2-02-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/contato-via-whatsapp/",
-          "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-          "uuid": "9c2cd8a2-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
-          "xpath": "/html[1]/body[1]/main[1]"
         },
         {
           "url": "https://meusensia.com.br/imoveis/rj/",
@@ -725,18 +395,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-19-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-18-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/ba/salvador/",
           "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
           "uuid": "ada658e7-08-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -749,30 +407,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-17-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-16-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-fiusa-view/",
-          "urlHash": "b7be63161ca9c88c2316102e5f801540a9e696d7",
-          "uuid": "b7be6316-01-f2eaeb06713004aebcc7102014e216fdfd3c89bb",
-          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-fiusa-view/",
-          "urlHash": "b7be63161ca9c88c2316102e5f801540a9e696d7",
-          "uuid": "b7be6316-00-5f441624e1b629dbe51ec85c59d71ebffc61008c",
-          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/al/maceio/",
           "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
           "uuid": "bc23c7da-04-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -782,18 +416,6 @@
           "url": "https://meusensia.com.br/imoveis/al/maceio/",
           "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
           "uuid": "bc23c7da-03-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-19-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
@@ -821,18 +443,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-19-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/imoveis/sp/",
           "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
           "uuid": "cdbbe609-03-6419c5482dba87d55497e10067ddb965e78fe885",
@@ -845,18 +455,6 @@
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-19-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
           "url": "https://meusensia.com.br/conheca-a-sensia/",
           "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
           "uuid": "e563f5d9-14-6e70765a003047818ea5700b557b8d01b43078df",
@@ -866,18 +464,6 @@
           "url": "https://meusensia.com.br/conheca-a-sensia/",
           "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
           "uuid": "e563f5d9-13-a27d6a564ded217577666251c62dd15fe27c1901",
-          "xpath": "/html[1]/body[1]/section[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-20-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-19-a27d6a564ded217577666251c62dd15fe27c1901",
           "xpath": "/html[1]/body[1]/section[2]"
         },
         {
@@ -933,89 +519,36 @@
   ],
   "blocks": [
     {
-      "name": "Columns",
-      "cluster": 2,
-      "source": "Columns",
-      "target": "Columns (columns2)",
-      "key": "columns2",
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-08-6f4e058803368fba2224365840dd19ff7ea69a85",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-07-eed03ab406ede75e4a0255c550837a34dbb64d77",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]"
         }
       ]
     },
@@ -1041,32 +574,411 @@
       ]
     },
     {
-      "name": "Form",
-      "cluster": 5,
+      "name": "Video",
+      "cluster": 4,
+      "source": "Video",
+      "target": "Video (video4)",
+      "key": "video4",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-15-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-04-45d52edf15e05750c419432324dc98acd7e42048",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[3]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-14-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
-        },
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-07-d5b511a90f62bac40577f99adde5e308100c9b28",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]"
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-05-95a83cec6db58989290a14118ecc47be7cb7e27d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[4]"
         }
       ]
     },
     {
-      "name": "unknown",
+      "name": "header",
+      "cluster": 5,
+      "source": "Header",
+      "target": "Header",
+      "key": "header5",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-00-c498d593a5bc97467d867eb87705c763456c87bd",
+          "xpath": "/html[1]/body[1]/section[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
       "cluster": 6,
+      "source": "Cards",
+      "target": "Cards (cards6)",
+      "key": "cards6",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 7,
+      "source": "Tabs",
+      "target": "Tabs",
+      "key": "tabs7",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/",
+          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
+          "uuid": "022b7232-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/",
+          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
+          "uuid": "080300ac-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/maringa/",
+          "urlHash": "18d8c89d30e8b3d22354899e7246565a3a657c83",
+          "uuid": "18d8c89d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-10-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/am/manaus/",
+          "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
+          "uuid": "4569852c-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/",
+          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
+          "uuid": "66aa4d09-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/",
+          "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+          "uuid": "66ab7968-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/",
+          "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
+          "uuid": "79fe2d47-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-06-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
+          "urlHash": "8c9adfad01a16b0da951b34d0543845c80f9405b",
+          "uuid": "8c9adfad-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/page/2/",
+          "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
+          "uuid": "8ee9dc3d-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-58-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/",
+          "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
+          "uuid": "9e5e9b1a-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/",
+          "urlHash": "a206565d5f209cd4761d80e3d515d70f30cee11b",
+          "uuid": "a206565d-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ba/salvador/",
+          "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
+          "uuid": "ada658e7-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/al/maceio/",
+          "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
+          "uuid": "bc23c7da-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-09-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-02-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-13-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-08-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/rj/rio-de-janeiro/",
+          "urlHash": "eddf327dd19a45f35c1a9a06181502abc08afa23",
+          "uuid": "eddf327d-03-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-10-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-07-a27d6a564ded217577666251c62dd15fe27c1901",
+          "xpath": "/html[1]/body[1]/section[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 8,
+      "key": "hero8",
       "instances": [
         {
           "url": "https://meusensia.com.br/imoveis/pr/maringa/",
@@ -1097,214 +1009,31 @@
           "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
           "uuid": "f6fe7f82-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
           "xpath": "/html[1]/body[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
-          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
-          "uuid": "ece5d377-07-4eabbda5311e71fa12ce80cd0e2687c8b4743c67",
-          "xpath": "/html[1]/body[1]/div[1]/div[6]"
         }
       ]
     },
     {
-      "name": "Hero",
-      "cluster": 7,
-      "source": "Hero",
-      "target": "Hero (hero7)",
-      "key": "hero7",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-05-eed03ab406ede75e4a0255c550837a34dbb64d77",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]"
-        },
-        {
-          "url": "https://meusensia.com.br/",
-          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
-          "uuid": "bd816865-06-d5b511a90f62bac40577f99adde5e308100c9b28",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
+      "name": "Accordion",
       "cluster": 9,
-      "source": "Carousel",
-      "target": "Carousel (carousel9)",
-      "key": "carousel9",
+      "source": "Accordion",
+      "target": "Accordion (accordion9)",
+      "key": "accordion9",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+          "url": "https://meusensia.com.br/regulamentos/",
+          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
+          "uuid": "3da50406-06-e3ee391b36d7b50838147fe7d210e6d155a66b50",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]"
         }
       ]
     },
     {
-      "name": "Cards (icons)",
+      "name": "Search",
       "cluster": 10,
-      "source": "Cards",
-      "target": "Cards (cards10)",
-      "key": "cards10",
+      "source": "Search",
+      "target": "Search",
+      "key": "search10",
       "instances": [
-        {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-07-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 11,
-      "source": "Columns",
-      "target": "Columns (columns11)",
-      "key": "columns11",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
-          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
-          "uuid": "6e9eff75-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]"
-        },
-        {
-          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
-          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
-          "uuid": "8ab18430-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 13,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-10-58509582eddea0aa94d6125711439190b9c8103e",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-10-58509582eddea0aa94d6125711439190b9c8103e",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 15,
-      "source": "Hero",
-      "target": "Hero (hero15)",
-      "key": "hero15",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-01-51c9eecaa4f487a675ad9fb7361498d9052d1fac",
-          "xpath": "/html[1]/body[1]/div[1]/div[3]"
-        },
         {
           "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
           "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
@@ -1320,149 +1049,41 @@
       ]
     },
     {
-      "name": "columns-carousel",
-      "cluster": 16,
-      "source": "Carousel",
-      "target": "Carousel (carousel16)",
-      "key": "carousel16",
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
+          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+          "uuid": "ece5d377-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 12,
+      "source": "Accordion",
+      "target": "Accordion (accordion12)",
+      "key": "accordion12",
+      "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-06-778146753469d17283a77f694c01a6801a595db0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-06-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
+          "url": "https://meusensia.com.br/politica-de-privacidade/",
+          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
+          "uuid": "9baaedd5-01-78675e695000f7985e7ffbe278a17c7dc9a2b82d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
         }
       ]
     },
     {
       "name": "Cards",
-      "cluster": 17,
+      "cluster": 13,
       "source": "Cards",
-      "target": "Cards (cards17)",
-      "key": "cards17",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/",
-          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
-          "uuid": "bd816865-03-dae1c08c7e1c6f320c8c072e0980a97b39fcb968",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 19,
-      "source": "Cards",
-      "target": "Cards (cards19)",
-      "key": "cards19",
+      "target": "Cards (cards13)",
+      "key": "cards13",
       "instances": [
         {
           "url": "https://meusensia.com.br/imoveis/pr/curitiba/",
@@ -1491,665 +1112,11 @@
       ]
     },
     {
-      "name": "unknown",
-      "cluster": 20,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/personalizacao/",
-          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
-          "uuid": "38d8b7af-03-8b9ecc6f3c8435bc54700e91c8f31d6aed5872bf",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
-      "cluster": 21,
-      "source": "Carousel",
-      "target": "Carousel (carousel21)",
-      "key": "carousel21",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-11-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-10-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-11-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        }
-      ]
-    },
-    {
-      "name": "Search",
-      "cluster": 22,
-      "source": "Search",
-      "target": "Search (search22)",
-      "key": "search22",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/regulamentos/",
-          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
-          "uuid": "3da50406-04-45d52edf15e05750c419432324dc98acd7e42048",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/regulamentos/",
-          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
-          "uuid": "3da50406-05-95a83cec6db58989290a14118ecc47be7cb7e27d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]/div[1]/div[4]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 23,
-      "source": "Hero",
-      "target": "Hero (hero23)",
-      "key": "hero23",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-12-567615942c7e78a4237d1bf2a4554bc46af81275",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[13]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-11-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        }
-      ]
-    },
-    {
-      "name": "Accordion",
-      "cluster": 25,
-      "source": "Accordion",
-      "target": "Accordion (accordion25)",
-      "key": "accordion25",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/regulamentos/",
-          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
-          "uuid": "3da50406-06-e3ee391b36d7b50838147fe7d210e6d155a66b50",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]"
-        }
-      ]
-    },
-    {
       "name": "Cards",
-      "cluster": 26,
+      "cluster": 14,
       "source": "Cards",
-      "target": "Cards (cards26)",
-      "key": "cards26",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imoveis/",
-          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
-          "uuid": "ab5e40f1-06-26d3e893489225ef026a8eb44280b805e77cbff4",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 27,
-      "source": "Hero",
-      "target": "Hero (hero27)",
-      "key": "hero27",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 28,
-      "source": "Hero",
-      "target": "Hero (hero28)",
-      "key": "hero28",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-09-727487852991faf2432aba51de620f3bcee61312",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 29,
-      "source": "Hero",
-      "target": "Hero (hero29)",
-      "key": "hero29",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-13-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-14-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-14-42008b2b7c17ac68b56908a5ed32af25db291f11",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]"
-        }
-      ]
-    },
-    {
-      "name": "Form",
-      "cluster": 31,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-17-5fc0b80d2518251901724258363060083aa3c824",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[19]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-15-8c1c5d978d3aa960ede17346d28f22447c3c917f",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[13]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-15-90a4414c22f5eb25e330104e44f92aca76108355",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-15-90a4414c22f5eb25e330104e44f92aca76108355",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-16-8ba462f014eb25dfce6aa7bef6ff882e98dcfcfd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-16-8ba462f014eb25dfce6aa7bef6ff882e98dcfcfd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-17-833e85bfe8efd0bb07556675a33c3f0caaf2ea33",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 32,
-      "source": "Columns",
-      "target": "Columns (columns32)",
-      "key": "columns32",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
-          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
-          "uuid": "6e9eff75-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
-          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
-          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
-          "uuid": "8ab18430-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
-          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "tabs",
-      "cluster": 33,
-      "source": "Tabs",
-      "target": "Tabs (tabs33)",
-      "key": "tabs33",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-09-d0e63b8b2f7c77d2c2c26a2233c23e39746eab7a",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-09-ff924b1ab70af7df61592e43b615acf68c80cabd",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 35,
-      "source": "Cards",
-      "target": "Cards (cards35)",
-      "key": "cards35",
+      "target": "Cards (cards14)",
+      "key": "cards14",
       "instances": [
         {
           "url": "https://meusensia.com.br/imoveis/page/2/",
@@ -2160,365 +1127,26 @@
       ]
     },
     {
-      "name": "Hero",
-      "cluster": 36,
-      "source": "Hero",
-      "target": "Hero (hero36)",
-      "key": "hero36",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/regulamentos/",
-          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
-          "uuid": "3da50406-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/regulamentos/",
-          "urlHash": "3da5040609eed172a87617f0e81208f2e5a49694",
-          "uuid": "3da50406-07-eed03ab406ede75e4a0255c550837a34dbb64d77",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]"
-        },
-        {
-          "url": "https://meusensia.com.br/imoveis/ba/",
-          "urlHash": "022b7232e59c90d768c022f97d3a0b36faabd43a",
-          "uuid": "022b7232-01-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imoveis/am/",
-          "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
-          "uuid": "080300ac-01-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        },
-        {
-          "url": "https://meusensia.com.br/imoveis/mg/",
-          "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
-          "uuid": "66aa4d09-01-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        }
-      ]
-    },
-    {
       "name": "Columns",
-      "cluster": 38,
+      "cluster": 15,
       "source": "Columns",
-      "target": "Columns (columns38)",
-      "key": "columns38",
+      "target": "Columns (columns15)",
+      "key": "columns15",
       "instances": [
         {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-11-28177dc1ea58dad35d4f11cc53a27b386e11d122",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 39,
-      "source": "Hero",
-      "target": "Hero (hero39)",
-      "key": "hero39",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Cards (icons)",
-      "cluster": 41,
-      "source": "Columns",
-      "target": "Columns (columns41)",
-      "key": "columns41",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/investidores/",
-          "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-          "uuid": "3f94a53e-04-e92dcf99b5a9905616ff06c1195760aaad13619b",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Video",
-      "cluster": 42,
-      "source": "Video",
-      "target": "Video (video42)",
-      "key": "video42",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-04-d2b5c2cb424efddf8b12d269effa725e4b021110",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 43,
-      "source": "Hero",
-      "target": "Hero (hero43)",
-      "key": "hero43",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/personalizacao/",
-          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
-          "uuid": "38d8b7af-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imoveis/sp/",
-          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
-          "uuid": "cdbbe609-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "url": "https://meusensia.com.br/imoveis/page/3/",
+          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
+          "uuid": "1ec52c4f-01-6e70765a003047818ea5700b557b8d01b43078df",
           "xpath": "/html[1]/body[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Accordion",
-      "cluster": 44,
-      "source": "Accordion",
-      "target": "Accordion (accordion44)",
-      "key": "accordion44",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/politica-de-privacidade/",
-          "urlHash": "9baaedd5d4bb39e5a48f464e3e1c67901f46b702",
-          "uuid": "9baaedd5-01-78675e695000f7985e7ffbe278a17c7dc9a2b82d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
-      "cluster": 45,
-      "source": "Carousel",
-      "target": "Carousel (carousel45)",
-      "key": "carousel45",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/",
-          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
-          "uuid": "bd816865-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 47,
-      "source": "Hero",
-      "target": "Hero (hero47)",
-      "key": "hero47",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-13-a6f833f9198686163360224a50000daca7f828be",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[15]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-12-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-13-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-13-a6f833f9198686163360224a50000daca7f828be",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[15]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-12-b6e88befaff6806a5a689f168ee36ad516c80f96",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[12]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 48,
-      "source": "Columns",
-      "target": "Columns (columns48)",
-      "key": "columns48",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-08-cb03187fe0543837354a4601d201ea75534f40b3",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[2]"
         }
       ]
     },
     {
       "name": "Cards",
-      "cluster": 49,
+      "cluster": 16,
       "source": "Cards",
-      "target": "Cards (cards49)",
-      "key": "cards49",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imoveis/sp/campinas/",
-          "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
-          "uuid": "ece5d377-06-26d3e893489225ef026a8eb44280b805e77cbff4",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
-        }
-      ]
-    },
-    {
-      "name": "Form",
-      "cluster": 50,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-05-0fbbd74f14ea96fc1d7b9a077f262961ea246d78",
-          "xpath": "/html[1]/body[1]/div[1]/div[8]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-fiusa-view/",
-          "urlHash": "b7be63161ca9c88c2316102e5f801540a9e696d7",
-          "uuid": "b7be6316-01-f2eaeb06713004aebcc7102014e216fdfd3c89bb",
-          "xpath": "/html[1]/body[1]/div[1]/div[2]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/",
-          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
-          "uuid": "bd816865-05-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 51,
-      "source": "Hero",
-      "target": "Hero (hero51)",
-      "key": "hero51",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/",
-          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
-          "uuid": "bd816865-08-778146753469d17283a77f694c01a6801a595db0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 52,
-      "source": "Columns",
-      "target": "Columns (columns52)",
-      "key": "columns52",
+      "target": "Cards (cards16)",
+      "key": "cards16",
       "instances": [
         {
           "url": "https://meusensia.com.br/imoveis/ce/",
@@ -2535,170 +1163,208 @@
       ]
     },
     {
-      "name": "Hero",
-      "cluster": 53,
-      "source": "Hero",
-      "target": "Hero (hero53)",
-      "key": "hero53",
+      "name": "Columns",
+      "cluster": 17,
+      "source": "Columns",
+      "target": "Columns (columns17)",
+      "key": "columns17",
       "instances": [
         {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-05-364f6167b1c435535f3b9ba98d5af0590e4b5d88",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[4]"
-        }
-      ]
-    },
-    {
-      "name": "Accordion",
-      "cluster": 55,
-      "source": "Cards",
-      "target": "Cards (cardsNoImages55)",
-      "key": "cardsNoImages55",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
         },
         {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-16-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-16-a6f833f9198686163360224a50000daca7f828be",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[15]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-15-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-16-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-18-aa7978896337be9972876217f1526a393bcc985d",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[20]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-16-742b44e9b806b6214a73f3b7b5fb56f55a36bf48",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-16-a6f833f9198686163360224a50000daca7f828be",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[15]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-16-a24245d8bb6fef5836e41e20387ddd1e6b7097f5",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[19]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-17-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-17-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-05-52e6b905466250bb5884dcbfb7abbc9a31e6f4ef",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]"
         }
       ]
     },
     {
       "name": "Cards",
-      "cluster": 57,
+      "cluster": 18,
       "source": "Cards",
-      "target": "Cards (cards57)",
-      "key": "cards57",
+      "target": "Cards (cards18)",
+      "key": "cards18",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
-          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
-          "uuid": "c4eb122b-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "url": "https://meusensia.com.br/imoveis/",
+          "urlHash": "ab5e40f1339b8ac31166cfa3449d7dc98330d097",
+          "uuid": "ab5e40f1-06-26d3e893489225ef026a8eb44280b805e77cbff4",
           "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
         }
       ]
     },
     {
-      "name": "Form",
-      "cluster": 58,
+      "name": "Carousel",
+      "cluster": 19,
+      "source": "Carousel",
+      "target": "Carousel",
+      "key": "carousel19",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-15-12169f846bb5069ad1d8a9a7b76047c3d7fbc276",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]"
-        },
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-03-8b9ecc6f3c8435bc54700e91c8f31d6aed5872bf",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 20,
+      "key": "hero20",
+      "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-14-a6f833f9198686163360224a50000daca7f828be",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[15]"
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-09-08000bcf377fb03b10195ae07850ae9968658f7f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 21,
+      "source": "Cards",
+      "target": "Cards (cards21)",
+      "key": "cards21",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
+          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
+          "uuid": "f6fe7f82-09-44dcd638aab5215c87571efe651c7a066abc516a",
+          "xpath": "/html[1]/body[1]/div[1]/div[6]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Video",
+      "cluster": 22,
+      "source": "Video",
+      "target": "Video (video22)",
+      "key": "video22",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-04-d2b5c2cb424efddf8b12d269effa725e4b021110",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 23,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cardsNoImages23",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-11-28177dc1ea58dad35d4f11cc53a27b386e11d122",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]/div[3]"
         }
       ]
     },
     {
       "name": "Columns",
-      "cluster": 59,
+      "cluster": 24,
       "source": "Columns",
-      "target": "Columns (columns59)",
-      "key": "columns59",
+      "target": "Columns (columns24)",
+      "key": "columns24",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-07-94fc726a6e9584330d8621e8606bef50a86579b4",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 25,
+      "key": "hero25",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 26,
+      "key": "hero26",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/personalizacao/",
+          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
+          "uuid": "38d8b7af-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 27,
+      "source": "Columns",
+      "target": "Columns (columns27)",
+      "key": "columns27",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/status_da_obra/ultimas-unidades/",
+          "urlHash": "6e9eff7546bdb3aea6762f6289a1f2e9f7e4da87",
+          "uuid": "6e9eff75-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
+        },
+        {
+          "url": "https://meusensia.com.br/status_da_obra/em-obras/",
+          "urlHash": "8ab18430311769936fb308d54af864a06ea66a88",
+          "uuid": "8ab18430-04-476ef7a580f01900b00f056f4ccf5ab8950e0ba9",
+          "xpath": "/html[1]/body[1]/div[1]/div[3]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 28,
+      "key": "hero28",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-08-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 29,
+      "source": "Columns",
+      "target": "Columns (columns29)",
+      "key": "columns29",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-06-d5b511a90f62bac40577f99adde5e308100c9b28",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 30,
+      "key": "hero30",
       "instances": [
         {
           "url": "https://meusensia.com.br/conheca-a-sensia/",
@@ -2710,250 +1376,8 @@
     },
     {
       "name": "Hero",
-      "cluster": 60,
-      "source": "Hero",
-      "target": "Hero (hero60)",
-      "key": "hero60",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/conheca-a-sensia/",
-          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
-          "uuid": "e563f5d9-08-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 61,
-      "source": "Cards",
-      "target": "Cards (cards61)",
-      "key": "cards61",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imoveis/ce/fortaleza/",
-          "urlHash": "f6fe7f82021a4a44d7c77ce9b7c734421af480aa",
-          "uuid": "f6fe7f82-09-44dcd638aab5215c87571efe651c7a066abc516a",
-          "xpath": "/html[1]/body[1]/div[1]/div[6]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 63,
-      "source": "Cards",
-      "target": "Cards (cards63)",
-      "key": "cards63",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
-          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
-          "uuid": "f7aa8859-06-26d3e893489225ef026a8eb44280b805e77cbff4",
-          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 64,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-01-b44bfb6f91053e616228982ab0752280ea739906",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 66,
-      "source": "Columns",
-      "target": "Columns (columns66)",
-      "key": "columns66",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-          "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-          "uuid": "6f33ed8b-04-cce5baa61627470d784bc0fb31f33f9f696f8dcd",
-          "xpath": "/html[1]/body[1]/div[1]/div[7]"
-        }
-      ]
-    },
-    {
-      "name": "imovel-info",
-      "cluster": 67,
-      "source": "Columns",
-      "target": "Columns (columns67)",
-      "key": "columns67",
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-          "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-          "uuid": "cc111833-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-          "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-          "uuid": "171cb781-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-paris/",
-          "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-          "uuid": "332581fb-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/botanico/",
-          "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-          "uuid": "336efd4e-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-03-799342e8b9b954af38433cb15129373e6f6b8028",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-          "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-          "uuid": "47097570-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-          "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-          "uuid": "58826a21-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-          "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-          "uuid": "6223d4a4-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/way/",
-          "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-          "uuid": "644771c8-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/serra/",
-          "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-          "uuid": "79a8a20c-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-          "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-          "uuid": "7e99741d-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/la-vie/",
-          "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-          "uuid": "88bbe548-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/ponta-negra/",
-          "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-          "uuid": "9a181dec-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/pampulha/",
-          "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-          "uuid": "abd7bce5-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-          "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-          "uuid": "b36f7617-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/urban/",
-          "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-          "uuid": "bd396750-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/galleria/",
-          "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-          "uuid": "dbff99a2-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        },
-        {
-          "url": "https://meusensia.com.br/imovel/swiss-view/",
-          "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-          "uuid": "eca483de-03-d6400804ce817f0142d8ce5a74d641e921baa805",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Form",
-      "cluster": 72,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imovel/horizontes/",
-          "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-          "uuid": "4226cbaf-15-9e49789a302560aaa144e6ec34b92e16d361aea0",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-        }
-      ]
-    },
-    {
-      "name": "Form",
-      "cluster": 73,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/contato-via-whatsapp/",
-          "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-          "uuid": "9c2cd8a2-01-537891fbd27262d2dc4b84b6afdb15392f581f70",
-          "xpath": "/html[1]/body[1]/main[1]"
-        }
-      ]
-    },
-    {
-      "name": "Cards (icons)",
-      "cluster": 74,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/personalizacao/",
-          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
-          "uuid": "38d8b7af-07-94fc726a6e9584330d8621e8606bef50a86579b4",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[3]"
-        }
-      ]
-    },
-    {
-      "name": "unknown",
-      "cluster": 75,
-      "instances": [
-        {
-          "url": "https://meusensia.com.br/imoveis/page/3/",
-          "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
-          "uuid": "1ec52c4f-01-6e70765a003047818ea5700b557b8d01b43078df",
-          "xpath": "/html[1]/body[1]/div[1]"
-        }
-      ]
-    },
-    {
-      "name": "Video",
-      "cluster": 76,
+      "cluster": 31,
+      "key": "hero31",
       "instances": [
         {
           "url": "https://meusensia.com.br/",
@@ -2964,26 +1388,115 @@
       ]
     },
     {
-      "name": "Video",
-      "cluster": 77,
+      "name": "unknown",
+      "cluster": 32,
       "instances": [
         {
-          "url": "https://meusensia.com.br/personalizacao/",
-          "urlHash": "38d8b7aff612611988731457ad5be11d8752edc7",
-          "uuid": "38d8b7af-09-08000bcf377fb03b10195ae07850ae9968658f7f",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-05-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
         }
       ]
     },
     {
-      "name": "Carousel",
-      "cluster": 78,
+      "name": "Cards",
+      "cluster": 33,
+      "source": "Cards",
+      "target": "Cards (cards33)",
+      "key": "cards33",
       "instances": [
         {
-          "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-          "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-          "uuid": "15ea96e3-01-dfc3dbc5c8ac0092d6d77773f1a6eb0944231797",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[2]"
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-07-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 34,
+      "key": "hero34",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-08-778146753469d17283a77f694c01a6801a595db0",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 35,
+      "source": "Cards",
+      "target": "Cards (cards35)",
+      "key": "cards35",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/mg/belo-horizonte/",
+          "urlHash": "c4eb122b188795e5c319ca150d7e0b2ec3a8b2ec",
+          "uuid": "c4eb122b-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 36,
+      "source": "Cards",
+      "target": "Cards (cards36)",
+      "key": "cards36",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/",
+          "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+          "uuid": "bd816865-03-dae1c08c7e1c6f320c8c072e0980a97b39fcb968",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[2]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 37,
+      "key": "hero37",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/conheca-a-sensia/",
+          "urlHash": "e563f5d91ac03a8a03c201d64a009584448b9736",
+          "uuid": "e563f5d9-05-364f6167b1c435535f3b9ba98d5af0590e4b5d88",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 38,
+      "source": "Cards",
+      "target": "Cards (cards38)",
+      "key": "cards38",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/",
+          "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
+          "uuid": "cdbbe609-01-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 39,
+      "source": "Cards",
+      "target": "Cards (cards39)",
+      "key": "cards39",
+      "instances": [
+        {
+          "url": "https://meusensia.com.br/imoveis/sp/ribeirao-preto/",
+          "urlHash": "f7aa88598ace35ba58ff3428841922e21c457c18",
+          "uuid": "f7aa8859-06-26d3e893489225ef026a8eb44280b805e77cbff4",
+          "xpath": "/html[1]/body[1]/div[1]/div[4]/div[5]"
         }
       ]
     }
@@ -3000,96 +1513,6 @@
       "urlHash": "080300ac0ed42e73269beadc53d1a8e6beec4a23",
       "uuid": "080300ac-03-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-barra/",
-      "urlHash": "0fca230c1189e338cb970046bf07db976af0f735",
-      "uuid": "0fca230c-01-472b2f2732dd4b8479e730e3279b1de0c92005fb",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[19]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-barra/",
-      "urlHash": "0fca230c1189e338cb970046bf07db976af0f735",
-      "uuid": "0fca230c-03-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-      "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-      "uuid": "15ea96e3-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-      "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-      "uuid": "15ea96e3-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-      "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-      "uuid": "15ea96e3-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-      "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-      "uuid": "15ea96e3-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-jardim/",
-      "urlHash": "15ea96e389006e57f6f5db045fcc41b2c1b999c3",
-      "uuid": "15ea96e3-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-15-93ba282ec65fe7456e9093cb0295760be5a41b4c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[19]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-16-47fd64cb8b5aa37bb76799a18f2a7d988e370de8",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[19]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-aurora/",
-      "urlHash": "171cb781bd5dee424d40a1a8c02e5ce7fcaa8e49",
-      "uuid": "171cb781-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/imoveis/pr/maringa/",
@@ -3132,102 +1555,6 @@
       "urlHash": "1ec52c4fbf08d262a37850434879571aa7253685",
       "uuid": "1ec52c4f-03-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-13-2886e4ba13089914465872143a225108de034c84",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[13]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-14-b83e6caf1778fb120c97e9ba6e92a0133616734e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[13]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-paris/",
-      "urlHash": "332581fbf54af72d7a7bb91959517bed990a2390",
-      "uuid": "332581fb-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-05-ed6ef699596b56c201e99f3f3b83d7da8f9d7f08",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/botanico/",
-      "urlHash": "336efd4e9fe1c458b42a4beec2f2efb1e2ef16e3",
-      "uuid": "336efd4e-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/personalizacao/",
@@ -3284,66 +1611,6 @@
       "xpath": "/html[1]/body[1]/div[1]"
     },
     {
-      "url": "https://meusensia.com.br/investidores/",
-      "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-      "uuid": "3f94a53e-02-82e016a3b6f17f9f96681c08e44d940203f67f1f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/investidores/",
-      "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-      "uuid": "3f94a53e-03-8b9ecc6f3c8435bc54700e91c8f31d6aed5872bf",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/investidores/",
-      "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-      "uuid": "3f94a53e-06-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
-    },
-    {
-      "url": "https://meusensia.com.br/investidores/",
-      "urlHash": "3f94a53e1b1dba3cc314e9eeb6f72d6eb078fd71",
-      "uuid": "3f94a53e-08-647e94dd150037b2bb4e6854656cf6e36f0fd5ab",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-02-7656f82f30ca8c7b848986992396145927afd5a9",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[5]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-04-bf88f8af90b3bc8c6b7dce09aee8402a10335226",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[7]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-05-b83d447691b2abc8c0a2c38bcd3a548e72b4d3f8",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[9]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-07-ff9f9df389e3b536850778c50938df223b0b33ea",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-10-5203d1fbb0ce3641255b5a639f3f897df45d2427",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[11]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/horizontes/",
-      "urlHash": "4226cbaf7a060c8270d967417b3bf3d4e71ca2f5",
-      "uuid": "4226cbaf-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/am/manaus/",
       "urlHash": "4569852ccfb12e6937dd8a8fe0771d93cc53fe8f",
       "uuid": "4569852c-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
@@ -3374,177 +1641,15 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-patamares/",
-      "urlHash": "47097570bf049360cc749e7ec11859930bb4011f",
-      "uuid": "47097570-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-05-ed6ef699596b56c201e99f3f3b83d7da8f9d7f08",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-solarium/",
-      "urlHash": "58826a210ff7a48f722a55ffec8c101805284a6c",
-      "uuid": "58826a21-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-15-472c128b10751857f510f00f4aaa5f84ded3b0f2",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-swiss-garden/",
-      "urlHash": "6223d4a4001babb416edeb849eba7e0e059b5bb9",
-      "uuid": "6223d4a4-17-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-13-db48774edd261a31cc478168fc91683c89f2459b",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-14-a387d7a2565e559188cf8ef4cfe5b69b42ee2cad",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/way/",
-      "urlHash": "644771c8196fb93e18e3ed1fee86bcc458550b55",
-      "uuid": "644771c8-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/mg/",
       "urlHash": "66aa4d09812cd1103f9174ff474c41d3b1b8c9b4",
       "uuid": "66aa4d09-03-6419c5482dba87d55497e10067ddb965e78fe885",
+      "xpath": "/html[1]/body[1]/div[2]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/pr/",
+      "urlHash": "66ab7968282bbe2c8ff48d9f5fd06766e23d7fbc",
+      "uuid": "66ab7968-03-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
@@ -3566,184 +1671,10 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-      "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-      "uuid": "6f33ed8b-00-10ff6870fe0e1e8555c1dab4170caa3e62155dbd",
-      "xpath": "/html[1]/body[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-      "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-      "uuid": "6f33ed8b-02-0f1d7f5df3d5be3c797f8c344329fe6d7acc6cbe",
-      "xpath": "/html[1]/body[1]/div[1]/div[5]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-      "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-      "uuid": "6f33ed8b-03-4eabbda5311e71fa12ce80cd0e2687c8b4743c67",
-      "xpath": "/html[1]/body[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-gran-bosque/",
-      "urlHash": "6f33ed8bcf4d35cfd50d5dc0226236fbdec06547",
-      "uuid": "6f33ed8b-06-9147325cf6c1b5e5656d8a231634a109a36b4bbc",
-      "xpath": "/html[1]/body[1]/div[1]/div[9]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-13-db48774edd261a31cc478168fc91683c89f2459b",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-14-a387d7a2565e559188cf8ef4cfe5b69b42ee2cad",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[14]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/serra/",
-      "urlHash": "79a8a20c39a7d77bac4cde243c5dcaaa6047d43b",
-      "uuid": "79a8a20c-18-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/ce/",
       "urlHash": "79fe2d47fc7992de0b639fa9a4e27a394c3d74f5",
       "uuid": "79fe2d47-03-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-05-d8dc1dd7591b32c6b36fecee6d13870b65e82845",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-18-9e49789a302560aaa144e6ec34b92e16d361aea0",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[18]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-horizon/",
-      "urlHash": "7e99741df4ae59a09b275295991582ee0701b789",
-      "uuid": "7e99741d-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/la-vie/",
-      "urlHash": "88bbe548f70c6d61bdb7c055015ab71aa7e44ff2",
-      "uuid": "88bbe548-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/status_da_obra/em-obras/",
@@ -3804,54 +1735,6 @@
       "urlHash": "8ee9dc3d1238e3a21cf7ae2295a4f5fee4e41152",
       "uuid": "8ee9dc3d-08-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-14-c0aa333c9d1d716cf572b4bbf0e2754e642c819b",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-15-6047b7b200daf7da411e25c5f860c097dfb4f6dc",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/ponta-negra/",
-      "urlHash": "9a181dec57fa7c47d247d1c62300547d961e8978",
-      "uuid": "9a181dec-19-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/politica-de-privacidade/",
@@ -4196,18 +2079,6 @@
       "xpath": "/html[1]/body[1]/div[1]"
     },
     {
-      "url": "https://meusensia.com.br/contato-via-whatsapp/",
-      "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-      "uuid": "9c2cd8a2-00-c498d593a5bc97467d867eb87705c763456c87bd",
-      "xpath": "/html[1]/body[1]/section[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/contato-via-whatsapp/",
-      "urlHash": "9c2cd8a2e67e3ea6ead5cf21a5d5617067122644",
-      "uuid": "9c2cd8a2-02-a27d6a564ded217577666251c62dd15fe27c1901",
-      "xpath": "/html[1]/body[1]/section[2]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/rj/",
       "urlHash": "9e5e9b1aacd0956b9c69f68b9a4f6b7a43904b1e",
       "uuid": "9e5e9b1a-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
@@ -4262,54 +2133,6 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-14-c0aa333c9d1d716cf572b4bbf0e2754e642c819b",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-15-6047b7b200daf7da411e25c5f860c097dfb4f6dc",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[16]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/pampulha/",
-      "urlHash": "abd7bce5a1cdbc5b4a2b46cf730ed069e78f44ad",
-      "uuid": "abd7bce5-19-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/ba/salvador/",
       "urlHash": "ada658e792eecded7a06e6f3e58643cfa4613b8d",
       "uuid": "ada658e7-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
@@ -4346,48 +2169,6 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-09-cc755d29313dd5b1c66944f8ca2ae318ae21eec2",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/vila-do-sol/",
-      "urlHash": "b36f7617da5af2e8693d7edf6855a8c168c5f7eb",
-      "uuid": "b36f7617-17-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-fiusa-view/",
-      "urlHash": "b7be63161ca9c88c2316102e5f801540a9e696d7",
-      "uuid": "b7be6316-00-5f441624e1b629dbe51ec85c59d71ebffc61008c",
-      "xpath": "/html[1]/body[1]/div[1]/div[2]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/al/maceio/",
       "urlHash": "bc23c7daeb87cda934128e0a682a26b11def0bee",
       "uuid": "bc23c7da-01-467f8ed18ac2f8747100bc9f065a76c0bb5706bb",
@@ -4400,52 +2181,10 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/urban/",
-      "urlHash": "bd396750eb68d205c11534ca226fe94fe85620e0",
-      "uuid": "bd396750-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
+      "url": "https://meusensia.com.br/",
+      "urlHash": "bd8168655f2525f2b798f1c874e740af03c08db0",
+      "uuid": "bd816865-01-b2198061dec525bcf2a9a6fb74e6f640c6dcd5ae",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/",
@@ -4502,106 +2241,10 @@
       "xpath": "/html[1]/body[1]/div[2]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/sensia-taquaral/",
-      "urlHash": "cc11183316da59cfc68d4c6585c7f5cef74a23a6",
-      "uuid": "cc111833-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/sp/",
       "urlHash": "cdbbe609c3932ff2354120a2440ff2aefe835afd",
       "uuid": "cdbbe609-03-6419c5482dba87d55497e10067ddb965e78fe885",
       "xpath": "/html[1]/body[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/galleria/",
-      "urlHash": "dbff99a20bfba9624229ff05f3acdb22fe2e863e",
-      "uuid": "dbff99a2-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
     },
     {
       "url": "https://meusensia.com.br/conheca-a-sensia/",
@@ -4640,54 +2283,6 @@
       "xpath": "/html[1]/body[1]/div[1]"
     },
     {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-02-a1c1817985fbe2eed8c81a290f9bf0564129a851",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[4]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-04-08000bcf377fb03b10195ae07850ae9968658f7f",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[6]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-05-2bef1adc76a6478bd5b221a9d56af37ba68f2b9c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[8]/div[1]/div[3]/div[1]/div[1]/details[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-07-7efbebdc2394986e7614addaa5ec0ce0f936950d",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-10-58509582eddea0aa94d6125711439190b9c8103e",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[10]/div[3]/div[1]/div[1]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-15-aae69707eeaf4907e72434e888ec457199bdf492",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[1]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-16-6fe371cd49b5c5a62f825b60497e6b81e89f7074",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]/div[17]/div[1]/div[2]"
-    },
-    {
-      "url": "https://meusensia.com.br/imovel/swiss-view/",
-      "urlHash": "eca483de32dab56c58a44373d4460db7cc8bc9e0",
-      "uuid": "eca483de-20-6e70765a003047818ea5700b557b8d01b43078df",
-      "xpath": "/html[1]/body[1]/div[1]"
-    },
-    {
       "url": "https://meusensia.com.br/imoveis/sp/campinas/",
       "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
       "uuid": "ece5d377-02-16321aaf3743d969cbaf39c70c3ff09ca48b29e1",
@@ -4710,6 +2305,12 @@
       "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
       "uuid": "ece5d377-05-833a495c3d4b362dca16c0a6296c99c0532ef9c7",
       "xpath": "/html[1]/body[1]/div[1]/div[4]/div[4]"
+    },
+    {
+      "url": "https://meusensia.com.br/imoveis/sp/campinas/",
+      "urlHash": "ece5d377ff81c8b2eda7ff96aeb0a040ac229983",
+      "uuid": "ece5d377-07-4eabbda5311e71fa12ce80cd0e2687c8b4743c67",
+      "xpath": "/html[1]/body[1]/div[1]/div[6]"
     },
     {
       "url": "https://meusensia.com.br/imoveis/sp/campinas/",
